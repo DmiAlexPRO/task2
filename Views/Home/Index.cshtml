@@ -1,0 +1,37 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+    
+<div class="side-menu col-3">
+    <ul>
+        <li>habr <input type="checkbox" name="option2" value="a2"></li>
+        <li>habra habr <input type="checkbox" name="option2" value="a2"></li>
+        <li>habra habra habr <input type="checkbox" name="option2" value="a2"></li>
+    </ul>
+</div>
+
+<div class="col-9 content">
+    @foreach (var post in ViewBag.Posts)
+    {
+        <h3><a href="post.Link">@post.Title</a></h3>
+        if (post.PublicationDate != DateTime.MinValue)
+        {
+            <div class="col-12">Дата публикации: @post.PublicationDate.ToString("d")</div>
+        }
+        else
+        {
+            <div class="col-12">Дата публикации: Ошибка чтения даты</div>
+        }
+        <div class="col-12">
+            @if (ViewBag.UseTags)
+            {
+                @Html.Raw(post.Description);
+            }
+            else
+            {
+                @post.Description;
+            }
+        </div>
+        <br /><br /><br />
+    }
+</div>
