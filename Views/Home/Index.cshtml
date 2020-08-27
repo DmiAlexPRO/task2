@@ -2,21 +2,38 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
     
-<div class="side-menu col-3">
-    <ul>
-        <li>habr <input type="checkbox" name="option2" value="a2"></li>
-        <li>habra habr <input type="checkbox" name="option2" value="a2"></li>
-        <li>habra habra habr <input type="checkbox" name="option2" value="a2"></li>
-    </ul>
-</div>
+    <div class="side-menu col-3">
+        <h3>Подключенные ленты</h3>
+        <form>
+            @foreach (var feed in ViewBag.Feeds)
+            {
+                <script type="text/javascript">
+                            var parser = document.createElement('a');
+                            parser.href = "@feed.Url";
+                </script>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" checked="@feed.MustBeShown" id="@feed.Url">
+                    <label class="custom-control-label" for="@feed.Url">
+                        <script type="text/javascript">
+                            document.write(parser.hostname)
+                        </script>
+                    </label>
+                </div>
+
+            }
+            <br />
+            <button type="submit" class="btn btn-primary">Применить</button>
+        </form>
+        
+    </div>
 
 <div class="col-9 content">
     @foreach (var post in ViewBag.Posts)
     {
-        <h3><a href="post.Link">@post.Title</a></h3>
+        <h3><a href="@post.Link"  target=»_blank»>@post.Title</a></h3>
         if (post.PublicationDate != DateTime.MinValue)
         {
-            <div class="col-12">Дата публикации: @post.PublicationDate.ToString("d")</div>
+            <div class="col-12">Дата публикации: @post.PublicationDate.ToString(@*"d"*@)</div>
         }
         else
         {

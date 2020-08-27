@@ -7,7 +7,7 @@ namespace task2.Models
 {
     public class Feed
     {
-        public string url { get; set; }
-        public bool mustBeShown { get; set; }
+        public string Url { get; set; }
+        public bool MustBeShown { get; set; }
     }
 }

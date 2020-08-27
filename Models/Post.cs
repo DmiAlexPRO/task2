@@ -7,8 +7,8 @@ namespace task2.Models
     {
         //public Post() { }
         public string Title { get; set; }
-        //public string PublicationDate { get; set; }/*возможно, стоит заменить на датовый тип данных, надо только подумать, как прасить строку */
-         public DateTime PublicationDate { get; set; }
+       
+        public DateTime PublicationDate { get; set; }
         public string Description { get; set; }
         public string Link { get; set; }
 
