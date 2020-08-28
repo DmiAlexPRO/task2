@@ -9,11 +9,7 @@
       <Url>http://ph.news.yahoo.com/rss/philippines</Url>
       <MustBeShown>true</MustBeShown>
     </Feed>
-    <Feed>
-      <Url />
-      <MustBeShown>true</MustBeShown>
-    </Feed>
   </Feeds>
   <UseTags>true</UseTags>
-  <RefreshInterval>11550</RefreshInterval>
+  <RefreshInterval>3210</RefreshInterval>
 </Settings>

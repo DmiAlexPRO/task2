@@ -31,7 +31,15 @@ namespace task2.Code
             XMLSettingsReader reader = new XMLSettingsReader(controller);
 
             Settings settings;
-            settings = reader.Read();
+            try
+            {
+                settings = reader.Read();
+            }
+            catch(Exception ex)
+            {
+                settings = Settings.GetDefaultSettings();
+                settings = SetDefaultSettings();
+            }
             //некорректные данные воспринимаются как повреждение файла или его отсутствие, файл пересоздается с дефолтными значениями
             if (settings.Feeds.Count == 0 || settings.RefreshInterval >= 18000 || settings.RefreshInterval < 10)
                 settings = SetDefaultSettings();

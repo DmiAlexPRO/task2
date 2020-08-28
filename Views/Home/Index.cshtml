@@ -30,7 +30,7 @@
 
             }
             <br />
-            <button type="submit"  class="btn btn-outline-primary">Edit</button>
+            <button type="submit"  class="btn btn-outline-primary">Применить</button>
         </form>
         
     </div>
@@ -38,11 +38,8 @@
     <div class="col-9 content">
         @foreach (var post in ViewBag.Posts)
         {   
-            //генерируем хеш-код по куску имени для создания уникального id, который используется для работы collapse-модулей из bootstrap
-            string strForId = @post.Title;
-            if (strForId.Length > 20)
-                strForId = strForId.Substring(0, 20);
-            strForId = "qwe" + strForId.GetHashCode();//лучше заменить это говно!
+            
+            
 
             <h3><a href="@post.Link" class="post-title" target=»_blank»>@post.Title</a></h3>
             if (post.PublicationDate != DateTime.MinValue)
@@ -54,16 +51,16 @@
                 <div class="col-12 post-date">Дата публикации: Ошибка чтения даты</div>
             }
             
-            <div class="col-12 post-description" id="@strForId">
-                @if (ViewBag.UseTags)
-                {
-                    @Html.Raw(post.Description);
-                }
-                else
-                {
-                    @post.Description;//удалить теги
-                }
-            </div>
+    <div class="col-12 post-description" >
+        @if (ViewBag.UseTags)
+        {
+            @Html.Raw(post.Description);
+        }
+        else
+        {
+            @System.Text.RegularExpressions.Regex.Replace(post.Description, @"<[^>]+>|&nbsp;", "").Trim();//удаляем теги текста
+        }
+    </div>
         }
 
     </div>

@@ -1,10 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Web.Mvc;
-using System.Xml;
-using System.Xml.Linq;
-using System.Xml.Serialization;
 using task2.Code;
 using task2.Models;
 
@@ -15,6 +11,7 @@ namespace task2.Controllers
         private SettingsHelper helper;
         private static List<Feed> feeds;
         private List<Post> posts;
+        private bool useTags;
         private static int refreshPageInterval = 180; //в секундах
 
         public HomeController()
@@ -27,11 +24,14 @@ namespace task2.Controllers
         public ActionResult Index()
         {
             Settings settings = helper.GetSettinsFromXML();
+            useTags = settings.UseTags;
             if(feeds == null )
                 InitFeeds(settings);
             InitPosts();
             // получаем rss-ленту и отправляем ее в динамическое свойство Posts в ViewBag
             FillViewBag();
+
+            
             return View();
         }
 
@@ -44,7 +44,7 @@ namespace task2.Controllers
             return View();
         }
         [HttpPost]
-        public string GetSettings()
+        public RedirectResult GetSettings()
         {
             Settings settings = new Settings();
             settings.UseTags = !(Request.Form.GetValues("useTags") == null);
@@ -54,13 +54,12 @@ namespace task2.Controllers
             List<Feed> feeds = new List<Feed>();
             foreach (var str in strings)
             {
-                feeds.Add(new Feed() { Url = str, MustBeShown = true });
+                if(str != "")
+                    feeds.Add(new Feed() { Url = str, MustBeShown = true });
             }
             settings.Feeds = feeds;
-            //SettingsHelper helper = SettingsHelper.GetInstance();
-            //helper.Init(this);
             helper.ChangeSettings(settings);
-            return " ";
+            return Redirect("/Home/Index");
         }
 
 
@@ -77,11 +76,7 @@ namespace task2.Controllers
         
        private void InitFeeds(Settings settings)
        {
-            feeds = new List<Feed>();//это нужно заменить на объекты класса Feed
-            feeds.Add(new Feed() { Url = "http://ph.news.yahoo.com/rss/philippines", MustBeShown = true });
-            feeds.Add(new Feed() { Url = "https://habr.com/rss/interesting/", MustBeShown = true });
-            //feeds.Add(new Feed() { Url = "https://habr.com/rss/interesting/", MustBeShown = true });
-            //feeds.Add(new Feed() { Url = "https://habr.com/rss/interesting/", MustBeShown = true });
+            feeds = settings.Feeds;
         }
 
         private void InitPosts()
@@ -91,7 +86,19 @@ namespace task2.Controllers
             foreach (var feed in feeds)
             {
                 if (feed.MustBeShown)
-                    posts.AddRange(RssReader.Read(feed.Url));
+                {
+                    try
+                    {
+                        var tempList = RssReader.Read(feed.Url);
+                        if(tempList != null)
+                            posts.AddRange(tempList);
+                    }
+                    catch(Exception ex)
+                    {
+                        //
+                    }
+                }
+                    
             }
             posts.Sort();//сортируем по дате публикации (т.к. у нас потенциально последовательно расположены несколько лент)
             posts.Reverse();//сортировка дает нам даты от давних к новым, что не особо для нас удобно
@@ -100,7 +107,7 @@ namespace task2.Controllers
         private void FillViewBag()
         {
             ViewBag.Posts = posts;
-            ViewBag.UseTags = true;
+            ViewBag.UseTags = useTags;
             ViewBag.Feeds = feeds;
             ViewBag.RefreshDelay = refreshPageInterval;
         }

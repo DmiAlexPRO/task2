@@ -11,12 +11,19 @@ namespace task2.Code
     {
         public static List<Post> Read(string url)
         {
-            var webResponse = WebRequest.Create(url).GetResponse();
+            WebResponse webResponse;
+            try
+            {
+                webResponse = WebRequest.Create(url).GetResponse();
+            }
+            finally
+            {
+            //
+            }
             if (webResponse == null)
                 return null;
             var ds = new DataSet();
-            ds.ReadXml(webResponse.GetResponseStream());//тут вылетает System.Xml.XmlException, если ссылка на Rss-ленту не валидная, надо как-то обработать эту ситуацию
-
+            ds.ReadXml(webResponse.GetResponseStream());
             List<Post> posts = new List<Post>();
             foreach(var row in ds.Tables["item"].AsEnumerable())
             {
@@ -26,7 +33,6 @@ namespace task2.Code
                 try
                 {
                     post.PublicationDate = DateTime.Parse( row.Field<string>("pubDate"));
-                   
                 }
                 catch(Exception ex)
                 {
