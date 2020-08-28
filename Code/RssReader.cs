@@ -27,7 +27,8 @@ namespace task2.Code
                 {
                     post.PublicationDate = DateTime.Parse( row.Field<string>("pubDate"));
                    
-                }catch(Exception ex)
+                }
+                catch(Exception ex)
                 {
                     //что-то будет
                 }

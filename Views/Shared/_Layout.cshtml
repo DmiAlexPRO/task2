@@ -1,9 +1,10 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Refresh" content="@ViewBag.RefreshDelay" />
     <title>@ViewBag.Title - RSS Reader</title>
     <link rel="stylesheet" href="~/Content/Site.css">
     @Styles.Render("~/Content/css")
@@ -12,14 +13,14 @@
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
-            <div class="navbar-header">
-                <h1>RSS Reader</h1>
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Лента", "Index", "Home")</li>
-                    
-                    
+            <div class="navbar navbar-nav ">
+                <ul class="nav">
+                    <li class="nav-item">
+                        @Html.ActionLink("Домашняя страница", "Index", "Home")
+                    </li>
+                    <li class="nav-item">
+                        @Html.ActionLink("Настройки", "ChangeSettings", "Home")
+                    </li>
                 </ul>
             </div>
         </div>
@@ -29,11 +30,14 @@
         <div class="row">
             @RenderBody()
         </div>
-        <hr />
+    </div> 
+    <hr />
+    <div class="container footet-content">
         <footer>
             <p>&copy; @DateTime.Now.Year - Тестовое задание №2 на ASP.NET</p>
         </footer>
     </div>
+    
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")

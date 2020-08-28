@@ -1,6 +1,7 @@
 ﻿body {
-    padding-top: 50px;
+    padding-top: 20px;
     padding-bottom: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -29,3 +30,17 @@ img{
     height:auto;
 }
 
+.nav-item {
+    margin-right:20px;
+    font-size: 20px;
+}
+.post-title{
+
+}
+
+.post-date{
+    margin-bottom:15px;
+}
+.post-description{
+    margin-bottom:45px;
+}

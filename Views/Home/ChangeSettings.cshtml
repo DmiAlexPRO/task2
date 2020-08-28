@@ -1,0 +1,53 @@
+﻿
+@{
+    ViewBag.Title = "Settings";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+    
+<div class="col-12">
+    <form action="~/Home/GetSettings" method="post">
+        <div class="form-group form-check">
+            @if (ViewBag.UseTags)
+            {
+                <input type="checkbox" checked name="useTags" class="form-check-input" id="useTags">
+            }
+            else
+            {
+                <input type="checkbox" name="useTags" class="form-check-input" id="useTags">
+            }
+            <label class="form-check-label" for="useTags">Форматировать описание по тегам</label>
+        </div>
+        <div class="form-group">
+            <label for="formControlRange">Частота обновления страницы</label>
+            <input type="range" name="delay" min="10" max="18000" step="10" value="@ViewBag.Range" class="form-control-range" id="formControlRange">
+            <p id="indicator">@ViewBag.Range</p>
+        </div>
+        <div class="form-group">
+            <label for="feeds">Список лент</label>
+            @{ 
+                System.Text.StringBuilder sb = new System.Text.StringBuilder();
+                foreach(var feed in ViewBag.Feeds)
+                {
+                    sb.Append(feed.Url);
+                    sb.Append(';');
+                }
+            }
+            <textarea class="form-control" text="dsfsdfsdaga" name="feeds" id="feeds" rows="3">@sb.ToString()</textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+<script>
+    let onChange = function () {
+        let range = document.getElementById('formControlRange');
+        //document.getElementById('Wrapper').style.width = range.value;
+        document.getElementById('indicator').innerHTML = range.value;
+    }
+    document.getElementById('formControlRange').addEventListener('input', function () {
+        onChange();
+    });
+    onChange();
+</script>
+
+
+

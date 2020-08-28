@@ -5,7 +5,6 @@ namespace task2.Models
 {
     public class Post : IComparable
     {
-        //public Post() { }
         public string Title { get; set; }
        
         public DateTime PublicationDate { get; set; }

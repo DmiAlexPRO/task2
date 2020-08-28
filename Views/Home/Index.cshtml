@@ -1,10 +1,11 @@
-﻿@{
+﻿@{  
+    ViewBag.Title = "Home";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
     
     <div class="side-menu col-3">
         <h3>Подключенные ленты</h3>
-        <form>
+        <form method="post" action="~/Home/ConfigureFeed">
             @foreach (var feed in ViewBag.Feeds)
             {
                 <script type="text/javascript">
@@ -12,8 +13,15 @@
                             parser.href = "@feed.Url";
                 </script>
                 <div class="custom-control custom-checkbox">
-                    <input type="checkbox" class="custom-control-input" checked="@feed.MustBeShown" id="@feed.Url">
-                    <label class="custom-control-label" for="@feed.Url">
+                    @if (feed.MustBeShown)
+                    {
+                        <input type="checkbox" class="form-check-input" checked="checked" name="@feed.Url" id="@feed.Url">
+                    }
+                    else
+                    {
+                        <input type="checkbox" class="form-check-input"  name="@feed.Url" id="@feed.Url">
+                    }
+                    <label class="form-check-label" for="@feed.Url">
                         <script type="text/javascript">
                             document.write(parser.hostname)
                         </script>
@@ -22,33 +30,40 @@
 
             }
             <br />
-            <button type="submit" class="btn btn-primary">Применить</button>
+            <button type="submit"  class="btn btn-outline-primary">Edit</button>
         </form>
         
     </div>
 
-<div class="col-9 content">
-    @foreach (var post in ViewBag.Posts)
-    {
-        <h3><a href="@post.Link"  target=»_blank»>@post.Title</a></h3>
-        if (post.PublicationDate != DateTime.MinValue)
-        {
-            <div class="col-12">Дата публикации: @post.PublicationDate.ToString(@*"d"*@)</div>
-        }
-        else
-        {
-            <div class="col-12">Дата публикации: Ошибка чтения даты</div>
-        }
-        <div class="col-12">
-            @if (ViewBag.UseTags)
+    <div class="col-9 content">
+        @foreach (var post in ViewBag.Posts)
+        {   
+            //генерируем хеш-код по куску имени для создания уникального id, который используется для работы collapse-модулей из bootstrap
+            string strForId = @post.Title;
+            if (strForId.Length > 20)
+                strForId = strForId.Substring(0, 20);
+            strForId = "qwe" + strForId.GetHashCode();//лучше заменить это говно!
+
+            <h3><a href="@post.Link" class="post-title" target=»_blank»>@post.Title</a></h3>
+            if (post.PublicationDate != DateTime.MinValue)
             {
-                @Html.Raw(post.Description);
+                <div class="col-12 post-date">Дата публикации: @post.PublicationDate.ToString(@*"d"*@)</div>
             }
             else
             {
-                @post.Description;
+                <div class="col-12 post-date">Дата публикации: Ошибка чтения даты</div>
             }
-        </div>
-        <br /><br /><br />
-    }
-</div>
+            
+            <div class="col-12 post-description" id="@strForId">
+                @if (ViewBag.UseTags)
+                {
+                    @Html.Raw(post.Description);
+                }
+                else
+                {
+                    @post.Description;//удалить теги
+                }
+            </div>
+        }
+
+    </div>
