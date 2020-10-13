@@ -5,10 +5,6 @@
       <Url>https://habr.com/rss/interesting/</Url>
       <MustBeShown>true</MustBeShown>
     </Feed>
-    <Feed>
-      <Url>http://ph.news.yahoo.com/rss/philippines</Url>
-      <MustBeShown>true</MustBeShown>
-    </Feed>
   </Feeds>
   <UseTags>true</UseTags>
   <RefreshInterval>3210</RefreshInterval>

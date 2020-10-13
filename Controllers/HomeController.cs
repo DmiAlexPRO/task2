@@ -89,7 +89,7 @@ namespace task2.Controllers
                 {
                     try
                     {
-                        var tempList = RssReader.Read(feed.Url);
+                        var tempList = FeedLoader.LoadFeed(feed.Url);
                         if(tempList != null)
                             posts.AddRange(tempList);
                     }

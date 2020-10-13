@@ -9,39 +9,27 @@ namespace task2.Code
 {
     public class RssReader
     {
-        public static List<Post> Read(string url)
-        {
-            WebResponse webResponse;
-            try
-            {
-                webResponse = WebRequest.Create(url).GetResponse();
-            }
-            finally
-            {
-            //
-            }
-            if (webResponse == null)
-                return null;
-            var ds = new DataSet();
-            ds.ReadXml(webResponse.GetResponseStream());
+        public static List<Post> Read(DataSet dataSet)
+        {   
             List<Post> posts = new List<Post>();
-            foreach(var row in ds.Tables["item"].AsEnumerable())
+            if(dataSet != null)
             {
-                Post post = new Post();
-                post.Title = row.Field<string>("title");
-
-                try
+                foreach (var row in dataSet.Tables["item"].AsEnumerable())
                 {
-                    post.PublicationDate = DateTime.Parse( row.Field<string>("pubDate"));
+                    Post post = new Post();
+                    try
+                    {
+                        post.Title = row.Field<string>("title");
+                        post.PublicationDate = DateTime.Parse(row.Field<string>("pubDate"));
+                        post.Description = row.Field<string>("description");
+                        post.Link = row.Field<string>("link");
+                    }
+                    catch (Exception ex)
+                    {
+                        continue;
+                    }
+                    posts.Add(post);
                 }
-                catch(Exception ex)
-                {
-                    //что-то будет
-                }
-                post.Description = row.Field<string>("description");
-                post.Link = row.Field<string>("link");
-
-                posts.Add(post);
             }
             return posts;
         }
