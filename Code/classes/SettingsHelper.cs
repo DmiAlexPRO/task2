@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using task2.Code.interfaces;
 using task2.Models;
 
 namespace task2.Code
@@ -10,11 +11,11 @@ namespace task2.Code
     public class SettingsHelper
     {   
         private static SettingsHelper instance;
-        private Controller controller;
+        private SettingsReadWriter readWriter;
         private SettingsHelper() { }
-        public void Init(Controller controller)
+        public void Init(SettingsReadWriter readWriter)
         {
-            this.controller = controller;
+            this.readWriter = readWriter;
         }
         public static SettingsHelper GetInstance()
         {
@@ -26,16 +27,14 @@ namespace task2.Code
 
         }
 
-        public Settings GetSettinsFromXML()
+        public Settings GetSettins()
         {   
-            XMLSettingsReader reader = new XMLSettingsReader(controller);
-
             Settings settings;
             try
             {
-                settings = reader.Read();
+                settings = readWriter.Read();
             }
-            catch(Exception ex)
+            catch(Exception ex)//тут какая-то хуета происходит, надо переписать
             {
                 settings = Settings.GetDefaultSettings();
                 settings = SetDefaultSettings();
@@ -47,11 +46,10 @@ namespace task2.Code
         }
 
         
-        public Settings SetDefaultSettings()//do it private
+        private Settings SetDefaultSettings()
         {
-            XMLSettingsWriter writer = new XMLSettingsWriter(controller);
             Settings settings = Settings.GetDefaultSettings();
-            writer.Write(settings);
+            readWriter.Write(settings);
             return settings;
         }
 
@@ -60,8 +58,7 @@ namespace task2.Code
             Settings tempSettings = settings;
             if (settings.Feeds.Count == 0 || settings.RefreshInterval >= 18000 || settings.RefreshInterval < 10)
                 tempSettings = SetDefaultSettings();
-            XMLSettingsWriter writer = new XMLSettingsWriter(controller);
-            writer.Write(tempSettings);
+            readWriter.Write(tempSettings);
         }
     }
 }

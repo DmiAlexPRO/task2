@@ -7,8 +7,10 @@ using task2.Models;
 
 namespace task2.Code
 {
+    /*Класс, содержащий функционал для чтения данных из xml и формирования из него постов*/
     public class RssReader
     {
+        /*Метод принимает набор данных и читает его, как таблицу, заполняя посты и добавляя их в список, возвращает список постов (ленту)*/
         public static List<Post> Read(DataSet dataSet)
         {   
             List<Post> posts = new List<Post>();

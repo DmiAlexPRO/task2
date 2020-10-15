@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Web.Mvc;
 using task2.Code;
+using task2.Code.classes;
 using task2.Models;
 
 namespace task2.Controllers
@@ -17,13 +18,13 @@ namespace task2.Controllers
         public HomeController()
         {
             helper = SettingsHelper.GetInstance();
-            helper.Init(this);
+            helper.Init(new XmlSettingsReadWriter(this));
 
         }
 
         public ActionResult Index()
         {
-            Settings settings = helper.GetSettinsFromXML();
+            Settings settings = helper.GetSettins();
             useTags = settings.UseTags;
             if(feeds == null )
                 InitFeeds(settings);
@@ -37,7 +38,7 @@ namespace task2.Controllers
 
         public ActionResult ChangeSettings()
         {
-            Settings settings = helper.GetSettinsFromXML();
+            Settings settings = helper.GetSettins();
             ViewBag.UseTags = settings.UseTags;
             ViewBag.Range = settings.RefreshInterval;
             ViewBag.Feeds = settings.Feeds;
@@ -89,7 +90,7 @@ namespace task2.Controllers
                 {
                     try
                     {
-                        var tempList = FeedLoader.LoadFeed(feed.Url);
+                        var tempList = FeedLoader.LoadFeedByUrl(feed.Url);
                         if(tempList != null)
                             posts.AddRange(tempList);
                     }

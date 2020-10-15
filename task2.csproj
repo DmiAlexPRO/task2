@@ -119,12 +119,12 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Code\FeedLoader.cs" />
-    <Compile Include="Code\WebQueryMaker.cs" />
-    <Compile Include="Code\RssReader.cs" />
-    <Compile Include="Code\SettingsHelper.cs" />
-    <Compile Include="Code\XMLSettingsReader.cs" />
-    <Compile Include="Code\XMLSettingsWriter.cs" />
+    <Compile Include="Code\classes\FeedLoader.cs" />
+    <Compile Include="Code\classes\XmlSettingsReadWriter.cs" />
+    <Compile Include="Code\classes\WebQueryMaker.cs" />
+    <Compile Include="Code\classes\RssReader.cs" />
+    <Compile Include="Code\classes\SettingsHelper.cs" />
+    <Compile Include="Code\interfaces\SettingsReadWriter.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
