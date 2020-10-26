@@ -5,12 +5,18 @@ using System.Net;
 namespace task2.Code
 {   
     /*Класс, содержащий функционал для получения данных с сайта*/
-    public class WebQueryMaker
+    public class WebQueryMaker//название временное
     {
-        /*Принимает url в параметрах и выполняет запрос по сформированному адресу, в случае, если по url удалось считать xml таблицу,
-         она сохраняется в датасете и возврщается методом. Если при получении возникла ошибка, метод вернет null.*/
+        /* Принимает url в параметрах и выполняет запрос по сформированному адресу, в случае, если по url удалось считать xml таблицу,
+           она сохраняется в датасете и возврщается методом. Если при получении возникла ошибка, метод вернет null,
+           т.е. ПРИ ВЫЗОВЕ МЕТОДА НЕОБХОДИМА ПРОВЕРКА РЕЗУЛЬТАТА НА NULL    */
         public DataSet GetRssDataset(string url)
-        { 
+        {
+            if (string.IsNullOrEmpty(url))
+            {
+                throw new System.ArgumentException("Url cant be null or empty ", nameof(url));
+            }
+
             DataSet ds = new DataSet();
             WebResponse webResponse;
             try

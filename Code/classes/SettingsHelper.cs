@@ -8,14 +8,14 @@ using task2.Models;
 
 namespace task2.Code
 {
-    public class SettingsHelper
+    public class SettingsHelper //этот модуль еще предстоит проверить на адекватность с точки зрения внутренней логики
     {   
         private static SettingsHelper instance;
         private SettingsReadWriter readWriter;
         private SettingsHelper() { }
         public void Init(SettingsReadWriter readWriter)
         {
-            this.readWriter = readWriter;
+            this.readWriter = readWriter ?? throw new ArgumentNullException(nameof(readWriter));
         }
         public static SettingsHelper GetInstance()
         {
@@ -34,9 +34,8 @@ namespace task2.Code
             {
                 settings = readWriter.Read();
             }
-            catch(Exception ex)//тут какая-то хуета происходит, надо переписать
+            catch(Exception ex)
             {
-                settings = Settings.GetDefaultSettings();
                 settings = SetDefaultSettings();
             }
             //некорректные данные воспринимаются как повреждение файла или его отсутствие, файл пересоздается с дефолтными значениями

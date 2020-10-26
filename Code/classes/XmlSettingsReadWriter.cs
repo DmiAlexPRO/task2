@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using System.Web.Mvc;
 using System.Xml.Serialization;
 using task2.Code.interfaces;
@@ -12,11 +13,16 @@ namespace task2.Code.classes
         private Controller controller;
         public XmlSettingsReadWriter(Controller _controller)
         {
-            controller = _controller;
+            controller = _controller ?? throw new ArgumentNullException(nameof(_controller));
         }
 
         public void Write(Settings settings)
         {
+            if (settings is null)
+            {
+                throw new ArgumentNullException(nameof(settings));
+            }
+
             XmlSerializer formatter = new XmlSerializer(typeof(Settings));
 
             // получаем поток, куда будем записывать сериализованный объект

@@ -14,25 +14,28 @@ namespace task2.Code
         public static List<Post> Read(DataSet dataSet)
         {   
             List<Post> posts = new List<Post>();
-            if(dataSet != null)
+            if (dataSet == null)
+                throw new ArgumentException("Dataset cant be null");
+
+            foreach (var row in dataSet.Tables["item"].AsEnumerable())
             {
-                foreach (var row in dataSet.Tables["item"].AsEnumerable())
+                Post post = new Post();
+                // Не уверен, можно ли сказать про этот фрагмент, что в нем используется try-catch для организации логики проги, 
+                //но, даже если это так, другого подобного решения я не вижу
+                try
                 {
-                    Post post = new Post();
-                    try
-                    {
-                        post.Title = row.Field<string>("title");
-                        post.PublicationDate = DateTime.Parse(row.Field<string>("pubDate"));
-                        post.Description = row.Field<string>("description");
-                        post.Link = row.Field<string>("link");
-                    }
-                    catch (Exception ex)
-                    {
-                        continue;
-                    }
-                    posts.Add(post);
+                    post.Title = row.Field<string>("title");
+                    post.PublicationDate = DateTime.Parse(row.Field<string>("pubDate"));
+                    post.Description = row.Field<string>("description");
+                    post.Link = row.Field<string>("link");
                 }
+                catch (Exception ex)
+                {
+                    continue;
+                }
+                posts.Add(post);
             }
+
             return posts;
         }
     }
