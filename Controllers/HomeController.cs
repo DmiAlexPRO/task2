@@ -10,10 +10,8 @@ namespace task2.Controllers
     public class HomeController : Controller
     {
         private SettingsHelper helper;
+        //отдельное хранение лент позволяет 
         private static List<Feed> feeds;
-        private List<Post> posts;
-        private bool useTags;
-        private static int refreshPageInterval = 180; //в секундах
 
         public HomeController()
         {
@@ -25,14 +23,15 @@ namespace task2.Controllers
         public ActionResult Index()
         {
             Settings settings = helper.GetSettins();
-            useTags = settings.UseTags;
-            if(feeds == null )
-                InitFeeds(settings);
-            InitPosts();
-            // получаем rss-ленту и отправляем ее в динамическое свойство Posts в ViewBag
-            FillViewBag();
 
-            
+            if(feeds == null )
+                feeds = settings.Feeds;
+
+            ViewBag.Posts = GetGeneralSortedPostList();
+            ViewBag.UseTags = settings.UseTags;
+            ViewBag.Feeds = feeds;
+            ViewBag.RefreshDelay = settings.RefreshInterval;
+
             return View();
         }
 
@@ -75,42 +74,29 @@ namespace task2.Controllers
             return Redirect("/Home/Index");
         }
         
-       private void InitFeeds(Settings settings)
-       {
-            feeds = settings.Feeds;
-        }
 
-        private void InitPosts()
+
+        private List<Post> GetGeneralSortedPostList()
         {
-            posts = new List<Post>();
-
+            List<Post> generalPostList = new List<Post>();
             foreach (var feed in feeds)
             {
-                if (feed.MustBeShown)
+                if (!feed.MustBeShown)
+                    continue;
+                try
                 {
-                    try
-                    {
-                        var tempList = FeedLoader.LoadFeedByUrl(feed.Url);
-                        if(tempList != null)
-                            posts.AddRange(tempList);
-                    }
-                    catch(Exception ex)
-                    {
-                        //
-                    }
+                    var tempList = FeedLoader.LoadFeedByUrl(feed.Url);
+                    if (tempList != null)
+                        generalPostList.AddRange(tempList);
                 }
-                    
+                catch (Exception)
+                {
+                    continue;
+                }
             }
-            posts.Sort();//сортируем по дате публикации (т.к. у нас потенциально последовательно расположены несколько лент)
-            posts.Reverse();//сортировка дает нам даты от давних к новым, что не особо для нас удобно
-        }
-
-        private void FillViewBag()
-        {
-            ViewBag.Posts = posts;
-            ViewBag.UseTags = useTags;
-            ViewBag.Feeds = feeds;
-            ViewBag.RefreshDelay = refreshPageInterval;
+            generalPostList.Sort();//сортируем по дате публикации (т.к. у нас потенциально последовательно расположены несколько лент)
+            generalPostList.Reverse();//сортировка дает нам даты от давних к новым, что не особо для нас удобно
+            return generalPostList;
         }
     }
 }

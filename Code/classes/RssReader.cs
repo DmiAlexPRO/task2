@@ -29,7 +29,7 @@ namespace task2.Code
                     post.Description = row.Field<string>("description");
                     post.Link = row.Field<string>("link");
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
                     continue;
                 }

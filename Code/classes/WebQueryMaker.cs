@@ -17,18 +17,18 @@ namespace task2.Code
                 throw new System.ArgumentException("Url cant be null or empty ", nameof(url));
             }
 
-            DataSet ds = new DataSet();
+            DataSet dataSet = new DataSet();
             WebResponse webResponse;
             try
             {
                 webResponse = System.Net.WebRequest.Create(url).GetResponse();
-                ds.ReadXml(webResponse.GetResponseStream());
+                dataSet.ReadXml(webResponse.GetResponseStream());
             }
             catch
             {
-                return null;
+                return null;// i know it's so bad :(
             }
-            return ds;
+            return dataSet;
         }
 
     }

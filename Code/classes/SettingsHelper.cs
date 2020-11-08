@@ -9,7 +9,7 @@ using task2.Models;
 namespace task2.Code
 {
     public class SettingsHelper //этот модуль еще предстоит проверить на адекватность с точки зрения внутренней логики
-    {   
+    {
         private static SettingsHelper instance;
         private SettingsReadWriter readWriter;
         private SettingsHelper() { }
@@ -24,7 +24,6 @@ namespace task2.Code
                 instance = new SettingsHelper();
             }
             return instance;
-
         }
 
         public Settings GetSettins()
@@ -34,12 +33,12 @@ namespace task2.Code
             {
                 settings = readWriter.Read();
             }
-            catch(Exception ex)
+            catch(Exception)
             {
                 settings = SetDefaultSettings();
             }
             //некорректные данные воспринимаются как повреждение файла или его отсутствие, файл пересоздается с дефолтными значениями
-            if (settings.Feeds.Count == 0 || settings.RefreshInterval >= 18000 || settings.RefreshInterval < 10)
+            if (!IsSettingCorrect(settings))
                 settings = SetDefaultSettings();
             return settings;
         }
@@ -55,9 +54,16 @@ namespace task2.Code
         public void ChangeSettings(Settings settings)
         {
             Settings tempSettings = settings;
-            if (settings.Feeds.Count == 0 || settings.RefreshInterval >= 18000 || settings.RefreshInterval < 10)
+            if (!IsSettingCorrect(settings))
                 tempSettings = SetDefaultSettings();
             readWriter.Write(tempSettings);
+        }
+
+        private bool IsSettingCorrect(Settings settings)
+        {
+            return settings.Feeds.Count != 0 ||
+                settings.RefreshInterval < Settings.maxRefreshInterval ||
+                settings.RefreshInterval > Settings.minRefreshInterval;
         }
     }
 }
