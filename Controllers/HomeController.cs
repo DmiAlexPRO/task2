@@ -43,24 +43,7 @@ namespace task2.Controllers
             ViewBag.Feeds = settings.Feeds;
             return View();
         }
-        [HttpPost]
-        public RedirectResult GetSettings()
-        {
-            Settings settings = new Settings();
-            settings.UseTags = !(Request.Form.GetValues("useTags") == null);
-
-            settings.RefreshInterval = Int32.Parse(Request.Form.GetValues("delay")[0]);
-            var strings = Request.Form.GetValues("feeds")[0].Split(new char[] { ';' });
-            List<Feed> feeds = new List<Feed>();
-            foreach (var str in strings)
-            {
-                if(str != "")
-                    feeds.Add(new Feed() { Url = str, MustBeShown = true });
-            }
-            settings.Feeds = feeds;
-            helper.ChangeSettings(settings);
-            return Redirect("/Home/Index");
-        }
+        
 
 
          [HttpPost]
@@ -85,7 +68,7 @@ namespace task2.Controllers
                     continue;
                 try
                 {
-                    var tempList = FeedLoader.LoadFeedByUrl(feed.Url);
+                    var tempList = Loader.LoadFeedByUrl(feed.Url);
                     if (tempList != null)
                         generalPostList.AddRange(tempList);
                 }

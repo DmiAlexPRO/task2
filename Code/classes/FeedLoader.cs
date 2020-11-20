@@ -5,7 +5,7 @@ using task2.Models;
 namespace task2.Code
 {
     /*Класс, содержащий функционал для загрузки данных и формирования их в список постов*/
-    public class FeedLoader
+    public class Loader
     {
         /*Медод для загрузки ленты с постами по url и формирования из нее списка, удобного для дальнейшей работы с постами*/
         public static List<Post> LoadFeedByUrl(string url)

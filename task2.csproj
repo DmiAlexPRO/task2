@@ -126,6 +126,7 @@
     <Compile Include="Code\classes\SettingsHelper.cs" />
     <Compile Include="Code\interfaces\SettingsReadWriter.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\SettingsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -271,7 +272,7 @@
     <Content Include="Scripts\popper.js.map" />
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
-    <Content Include="Views\Home\ChangeSettings.cshtml" />
+    <Content Include="Views\Settings\ChangeSettings.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
