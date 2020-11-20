@@ -6,7 +6,7 @@
     
 <div class="col-12">
     <form action="~/Settings/GetSettings" method="post">
-        <div class="form-group form-check">
+        <div class="form-group card form-check">
             @if (ViewBag.UseTags)
             {
                 <input type="checkbox" checked name="useTags" class="form-check-input" id="useTags">
@@ -17,24 +17,37 @@
             }
             <label class="form-check-label" for="useTags">Форматировать описание по тегам</label>
         </div>
-        <div class="form-group">
+        <div class="form-group card">
             <label for="formControlRange">Частота обновления страницы</label>
             <input type="range" name="delay" min="10" max="18000" step="10" value="@ViewBag.Range" class="form-control-range" id="formControlRange">
             <p id="indicator">@ViewBag.Range</p>
         </div>
-        <div class="form-group">
+        <div class="form-group card">
             <label for="feeds">Список лент</label>
             @{ 
                 System.Text.StringBuilder sb = new System.Text.StringBuilder();
+                int i = 0;
                 foreach(var feed in ViewBag.Feeds)
                 {
                     sb.Append(feed.Url);
                     sb.Append(';');
+                    <div class="row alert  alert-secondary feed" name="feed-list" id="@i">
+                        <div class="col-9" name="feed">
+                            @feed.Url 
+                        </div>
+                        <div class="col-1 btn-delete">
+                            <button class="btn btn-danger"  type="button">Удалить</button>
+                        </div>
+                        <div class="col-2 ">
+                            <button class="btn btn-warning" type="button">Редактировать</button>
+                        </div>
+                    </div>
+                    i++;
                 }
             }
-            <textarea class="form-control" text="dsfsdfsdaga" name="feeds" id="feeds" rows="3">@sb.ToString()</textarea>
+            <input  type="hidden" name="feeds" id="feeds">
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary">Применить настройки</button>
     </form>
 </div>
 <script>
@@ -46,6 +59,44 @@
         onChange();
     });
     onChange();
+</script>
+
+<script>
+    function initFeeds() {
+        var feeds = document.getElementsByName("feed");
+        var str = "";
+        for (i = 0; i < feeds.length; i++) {
+            str += feeds[i].textContent.replace(/\s/g, '') + ";";
+        }
+        var tArea = document.getElementsByName("feeds");
+        tArea[0].value = str;
+    }
+
+    function deleteFeed(e) {
+        //alert();
+        this.parentNode.parentNode.remove();
+        initFeeds();
+    }
+
+
+    function editFeed(e) {
+        alert("Edit");
+    }
+
+    window.onload = function () {
+        initFeeds();
+
+        var deleteButtons = document.getElementsByClassName("btn-danger");
+        for (i = 0; i < deleteButtons.length; i++) {
+            deleteButtons[i].addEventListener("click", deleteFeed);
+        } 
+
+        var editButtons = document.getElementsByClassName("btn-warning");
+        for (i = 0; i < editButtons.length; i++) {
+            editButtons[i].addEventListener("click", editFeed);
+        }
+    }
+
 </script>
 
 

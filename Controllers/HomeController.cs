@@ -35,17 +35,6 @@ namespace task2.Controllers
             return View();
         }
 
-        public ActionResult ChangeSettings()
-        {
-            Settings settings = helper.GetSettins();
-            ViewBag.UseTags = settings.UseTags;
-            ViewBag.Range = settings.RefreshInterval;
-            ViewBag.Feeds = settings.Feeds;
-            return View();
-        }
-        
-
-
          [HttpPost]
         public RedirectResult ConfigureFeed()
         {

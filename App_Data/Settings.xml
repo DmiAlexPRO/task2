@@ -6,14 +6,10 @@
       <MustBeShown>true</MustBeShown>
     </Feed>
     <Feed>
-      <Url>http://news.rambler.ru/rss/world/</Url>
-      <MustBeShown>true</MustBeShown>
-    </Feed>
-    <Feed>
       <Url>http://news.yandex.ru/Japan/index.rss/</Url>
       <MustBeShown>true</MustBeShown>
     </Feed>
   </Feeds>
   <UseTags>true</UseTags>
-  <RefreshInterval>1850</RefreshInterval>
+  <RefreshInterval>3730</RefreshInterval>
 </Settings>

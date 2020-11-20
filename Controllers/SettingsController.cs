@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 using task2.Code;
 using task2.Code.classes;
@@ -36,12 +34,13 @@ namespace task2.Controllers
             settings.UseTags = !(Request.Form.GetValues("useTags") == null);
 
             settings.RefreshInterval = Int32.Parse(Request.Form.GetValues("delay")[0]);
+
             var strings = Request.Form.GetValues("feeds")[0].Split(new char[] { ';' });
             List<Feed> feeds = new List<Feed>();
             foreach (var str in strings)
             {
                 if (str != "")
-                    feeds.Add(new Feed() { Url = str, MustBeShown = true });
+                    feeds.Add(new Feed() { Url = str, MustBeShown = true });//TODO тут можно добавить валидацию данных
             }
             settings.Feeds = feeds;
             helper.ChangeSettings(settings);
