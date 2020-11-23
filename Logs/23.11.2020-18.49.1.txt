@@ -1,0 +1,18 @@
+2020-11-23 18:49:01.5617|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-11-23 18:49:01.8067|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-11-23 18:49:02.4004|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-11-23 18:55:30.9631|INFO|task2.Controllers.SettingsController|Creating the Settings controller
+2020-11-23 18:55:30.9722|INFO|task2.Controllers.SettingsController|Ñhanging the Settings controller
+2020-11-23 18:55:56.8909|INFO|task2.Controllers.SettingsController|Creating the Settings controller
+2020-11-23 18:55:56.9259|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-11-23 18:55:57.3432|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-11-23 18:56:18.4814|INFO|task2.Controllers.SettingsController|Creating the Settings controller
+2020-11-23 18:56:18.4814|INFO|task2.Controllers.SettingsController|Ñhanging the Settings controller
+2020-11-23 18:56:20.1258|INFO|task2.Controllers.SettingsController|Creating the Settings controller
+2020-11-23 18:56:20.1444|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-11-23 18:56:20.2634|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-11-23 18:56:24.2805|INFO|task2.Controllers.SettingsController|Creating the Settings controller
+2020-11-23 18:56:24.2805|INFO|task2.Controllers.SettingsController|Ñhanging the Settings controller
+2020-11-23 18:56:27.2018|INFO|task2.Controllers.SettingsController|Creating the Settings controller
+2020-11-23 18:56:27.2188|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-11-23 18:56:27.2959|DEBUG|task2.Code.Loader|Datasen is null - False

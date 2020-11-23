@@ -5,11 +5,7 @@
       <Url>https://habr.com/rss/interesting/</Url>
       <MustBeShown>true</MustBeShown>
     </Feed>
-    <Feed>
-      <Url>http://news.yandex.ru/Japan/index.rss/</Url>
-      <MustBeShown>true</MustBeShown>
-    </Feed>
   </Feeds>
   <UseTags>true</UseTags>
-  <RefreshInterval>3730</RefreshInterval>
+  <RefreshInterval>4220</RefreshInterval>
 </Settings>

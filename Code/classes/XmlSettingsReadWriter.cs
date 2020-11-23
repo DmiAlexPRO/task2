@@ -26,7 +26,7 @@ namespace task2.Code.classes
             XmlSerializer formatter = new XmlSerializer(typeof(Settings));
 
             // получаем поток, куда будем записывать сериализованный объект
-            using (FileStream fs = new FileStream(controller.Server.MapPath("~/App_Data//Settings.xml"), FileMode.OpenOrCreate))
+            using (FileStream fs = new FileStream(controller.Server.MapPath("~/App_Data//Settings.xml"), FileMode.Create))
             {
                 formatter.Serialize(fs, settings);
             }

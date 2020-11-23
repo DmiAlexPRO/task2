@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NLog;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
@@ -12,10 +13,15 @@ namespace task2.Code
     {
         /*Метод принимает набор данных и читает его, как таблицу, заполняя посты и добавляя их в список, возвращает список постов (ленту)*/
         public static List<Post> Read(DataSet dataSet)
-        {   
+        {
+            Logger logger = LogManager.GetCurrentClassLogger();
             List<Post> posts = new List<Post>();
             if (dataSet == null)
+            {
+                //logger.Debug($"Datasen is null - {dataSet is null}");
                 throw new ArgumentException("Dataset cant be null");
+            }
+                
 
             foreach (var row in dataSet.Tables["item"].AsEnumerable())
             {
@@ -29,8 +35,9 @@ namespace task2.Code
                     post.Description = row.Field<string>("description");
                     post.Link = row.Field<string>("link");
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
+                    logger.Debug($"Problem in post creation:  {ex}");
                     continue;
                 }
                 posts.Add(post);

@@ -1,4 +1,6 @@
-﻿using System.Data;
+﻿using NLog;
+using System;
+using System.Data;
 using System.Net;
 
 
@@ -7,26 +9,32 @@ namespace task2.Code
     /*Класс, содержащий функционал для получения данных с сайта*/
     public class WebQueryMaker//название временное
     {
-        /* Принимает url в параметрах и выполняет запрос по сформированному адресу, в случае, если по url удалось считать xml таблицу,
-           она сохраняется в датасете и возврщается методом. Если при получении возникла ошибка, метод вернет null,
-           т.е. ПРИ ВЫЗОВЕ МЕТОДА НЕОБХОДИМА ПРОВЕРКА РЕЗУЛЬТАТА НА NULL    */
+        /* It accepts url in parameters and executes a request at the generated address,
+        if the xml table was read by url, it is saved in the dataset and returned by the method.
+        If an error occurs while getting, the method will return null,
+        i.e. WHEN CALLING THE METHOD YOU NEED TO CHECK THE RESULT FOR NULL   */
         public DataSet GetRssDataset(string url)
         {
+            Logger logger = LogManager.GetCurrentClassLogger();
+
             if (string.IsNullOrEmpty(url))
             {
+                //logger.Debug($"Url is null of empty - {string.IsNullOrEmpty(url)}");
                 throw new System.ArgumentException("Url cant be null or empty ", nameof(url));
             }
 
             DataSet dataSet = new DataSet();
             WebResponse webResponse;
+
             try
             {
                 webResponse = System.Net.WebRequest.Create(url).GetResponse();
-                dataSet.ReadXml(webResponse.GetResponseStream());
+                dataSet.ReadXml(webResponse.GetResponseStream());//тут трабла TODO (System.Xml.XmlException, System.Data.DuplicateNameException)
             }
-            catch
+            catch(Exception ex)
             {
-                return null;// i know it's so bad :(
+                logger.Debug($"Problem getting a stream response:  {ex}");
+                return null;
             }
             return dataSet;
         }

@@ -1,9 +1,9 @@
-﻿     
+﻿
 @{
     ViewBag.Title = "Settings";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-    
+
 <div class="col-12">
     <form action="~/Settings/GetSettings" method="post">
         <div class="form-group card form-check">
@@ -22,21 +22,22 @@
             <input type="range" name="delay" min="10" max="18000" step="10" value="@ViewBag.Range" class="form-control-range" id="formControlRange">
             <p id="indicator">@ViewBag.Range</p>
         </div>
-        <div class="form-group card">
+        <div class="form-group card" id="feedList">
+
             <label for="feeds">Список лент</label>
-            @{ 
+            @{
                 System.Text.StringBuilder sb = new System.Text.StringBuilder();
                 int i = 0;
-                foreach(var feed in ViewBag.Feeds)
+                foreach (var feed in ViewBag.Feeds)
                 {
                     sb.Append(feed.Url);
                     sb.Append(';');
                     <div class="row alert  alert-secondary feed" name="feed-list" id="@i">
                         <div class="col-9" name="feed">
-                            @feed.Url 
+                            @feed.Url
                         </div>
                         <div class="col-1 btn-delete">
-                            <button class="btn btn-danger"  type="button">Удалить</button>
+                            <button class="btn btn-danger" type="button">Удалить</button>
                         </div>
                         <div class="col-2 ">
                             <button class="btn btn-warning" type="button">Редактировать</button>
@@ -45,11 +46,53 @@
                     i++;
                 }
             }
-            <input  type="hidden" name="feeds" id="feeds">
+            <input type="hidden" name="feeds" id="feeds">
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-outline-info" id="add-feed-button" data-toggle="modal" data-target="#exampleModal">
+                Добавить новую ленту
+            </button>
         </div>
         <button type="submit" class="btn btn-primary">Применить настройки</button>
     </form>
 </div>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Добавить ленту</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <input class="form-control form-control-lg col-12" id = "feed-url"  type="text" placeholder="http://site.domain/...">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Отмена</button>
+                <button type="button" id="add-feed-btn" data-dismiss="modal" class="btn btn-primary">Добавить</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Hidden template-->
+<div class="row alert  alert-secondary feed" name="feed-list" id="template" style="visibility:hidden">
+    <div class="col-9" name="feed">
+    </div>
+    <div class="col-1 btn-delete">
+        <button class="btn btn-danger" type="button">Удалить</button>
+    </div>
+    <div class="col-2 ">
+        <button class="btn btn-warning" type="button">Редактировать</button>
+    </div>
+</div>
+
+
 <script>
     let onChange = function () {
         let range = document.getElementById('formControlRange');
@@ -72,29 +115,46 @@
         tArea[0].value = str;
     }
 
+
     function deleteFeed(e) {
-        //alert();
         this.parentNode.parentNode.remove();
         initFeeds();
     }
 
 
     function editFeed(e) {
-        alert("Edit");
+        alert(this.parentNode.parentNode.id);
     }
 
-    window.onload = function () {
+    function addFeed(e) {
+        var feedTemplateClone = document.getElementById("template").cloneNode("true");
+        feedTemplateClone.style.visibility = 'visible';
+        feedTemplateClone.firstChild.nextSibling.textContent = document.getElementById("feed-url").value;
+        document.getElementById("feedList").insertBefore(feedTemplateClone, document.getElementById("add-feed-button"));
+        initAll();
         initFeeds();
+    }
 
+    function initAll(e) {
         var deleteButtons = document.getElementsByClassName("btn-danger");
         for (i = 0; i < deleteButtons.length; i++) {
             deleteButtons[i].addEventListener("click", deleteFeed);
-        } 
+        }
 
         var editButtons = document.getElementsByClassName("btn-warning");
         for (i = 0; i < editButtons.length; i++) {
             editButtons[i].addEventListener("click", editFeed);
         }
+
+        var addFeedButton = document.getElementById("add-feed-btn");
+        addFeedButton.addEventListener("click", addFeed);
+    }
+
+    window.onload = function () {
+        initFeeds();
+        initAll();
+        
+
     }
 
 </script>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NLog;
+using System;
 using System.Collections.Generic;
 using System.Web.Mvc;
 using task2.Code;
@@ -10,16 +11,19 @@ namespace task2.Controllers
     public class SettingsController : Controller
     {
         private SettingsHelper helper;
-        
+        private Logger logger;
 
         public SettingsController()
         {
+            logger = LogManager.GetCurrentClassLogger();
+            logger.Info("Creating the Settings controller");
             helper = SettingsHelper.GetInstance();
             helper.Init(new XmlSettingsReadWriter(this));
         }
         // GET: Settings
         public ActionResult ChangeSettings()
         {
+            logger.Info("Сhanging the Settings controller");
             Settings settings = helper.GetSettins();
             ViewBag.UseTags = settings.UseTags;
             ViewBag.Range = settings.RefreshInterval;
@@ -44,7 +48,7 @@ namespace task2.Controllers
             }
             settings.Feeds = feeds;
             helper.ChangeSettings(settings);
-            return Redirect("/Home/Index");
+            return Redirect("/Home/Index/1");
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NLog;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -12,10 +13,14 @@ namespace task2.Code
     {
         private static SettingsHelper instance;
         private SettingsReadWriter readWriter;
-        private SettingsHelper() { }
+        private Logger logger;
+        private SettingsHelper()
+        {
+            logger = LogManager.GetCurrentClassLogger();
+        }
         public void Init(SettingsReadWriter readWriter)
         {
-            this.readWriter = readWriter ?? throw new ArgumentNullException(nameof(readWriter));
+            this.readWriter = readWriter ?? throw new ArgumentNullException(nameof(readWriter)) ;
         }
         public static SettingsHelper GetInstance()
         {
@@ -33,13 +38,18 @@ namespace task2.Code
             {
                 settings = readWriter.Read();
             }
-            catch(Exception)
+            catch(Exception ex)
             {
+                logger.Error($"Impossible to read settings: {ex}");
                 settings = SetDefaultSettings();
             }
-            //некорректные данные воспринимаются как повреждение файла или его отсутствие, файл пересоздается с дефолтными значениями
+            //некорректные данные воспринимаются как повреждение файла или его отсутствие,
+            //файл пересоздается с дефолтными значениями
             if (!IsSettingCorrect(settings))
+            {
+                logger.Error($"Read settings is not correct");
                 settings = SetDefaultSettings();
+            }
             return settings;
         }
 
@@ -55,15 +65,18 @@ namespace task2.Code
         {
             Settings tempSettings = settings;
             if (!IsSettingCorrect(settings))
+            {
+                logger.Info($"Setting default settings");
                 tempSettings = SetDefaultSettings();
+            }
             readWriter.Write(tempSettings);
         }
 
         private bool IsSettingCorrect(Settings settings)
         {
-            return settings.Feeds.Count != 0 ||
-                settings.RefreshInterval < Settings.maxRefreshInterval ||
-                settings.RefreshInterval > Settings.minRefreshInterval;
+            return settings.Feeds.Count != 0 &&
+                settings.RefreshInterval <= Settings.maxRefreshInterval &&
+                settings.RefreshInterval >= Settings.minRefreshInterval;
         }
     }
 }

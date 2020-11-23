@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NLog;
+using System;
 using System.Collections.Generic;
 using System.Web.Mvc;
 using task2.Code;
@@ -9,23 +10,30 @@ namespace task2.Controllers
 {
     public class HomeController : Controller
     {
+        private Logger logger;
         private SettingsHelper helper;
         //отдельное хранение лент позволяет 
         private static List<Feed> feeds;
 
         public HomeController()
-        {
+        {   
+            logger = LogManager.GetCurrentClassLogger();
+            logger.Info("Creating the Home controller");
             helper = SettingsHelper.GetInstance();
             helper.Init(new XmlSettingsReadWriter(this));
 
         }
 
-        public ActionResult Index()
+        public ActionResult Index(bool needReload = false)
         {
             Settings settings = helper.GetSettins();
 
-            if(feeds == null )
+            if(feeds == null)
+            {
+                logger.Info("Setting the feeds");
                 feeds = settings.Feeds;
+            }
+               
 
             ViewBag.Posts = GetGeneralSortedPostList();
             ViewBag.UseTags = settings.UseTags;
@@ -55,14 +63,17 @@ namespace task2.Controllers
             {
                 if (!feed.MustBeShown)
                     continue;
+
+                
                 try
                 {
                     var tempList = Loader.LoadFeedByUrl(feed.Url);
                     if (tempList != null)
                         generalPostList.AddRange(tempList);
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
+                    logger.Debug($"Loading post problem: {ex}");
                     continue;
                 }
             }

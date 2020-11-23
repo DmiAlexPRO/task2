@@ -1,0 +1,102 @@
+2020-11-23 18:20:30.7124|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-11-23 18:20:31.3607|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-11-23 18:20:31.5598|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-11-23 18:20:32.0042|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Data.DuplicateNameException: —толбец с именем "link" уже принадлежит этому DataTable: невозможно присвоить им€ вложенной таблицы таблице с тем же именем.
+   в System.Data.DataColumnCollection.RegisterColumnName(String name, DataColumn column)
+   в System.Data.DataRelation.set_Nested(Boolean value)
+   в System.Data.XSDSchema.InstantiateTable(XmlSchemaElement node, XmlSchemaComplexType typeNode, Boolean isRef)
+   в System.Data.XSDSchema.HandleTable(XmlSchemaElement node)
+   в System.Data.XSDSchema.HandleParticle(XmlSchemaParticle pt, DataTable table, ArrayList tableChildren, Boolean isBase)
+   в System.Data.XSDSchema.HandleComplexType(XmlSchemaComplexType ct, DataTable table, ArrayList tableChildren, Boolean isNillable)
+   в System.Data.XSDSchema.InstantiateTable(XmlSchemaElement node, XmlSchemaComplexType typeNode, Boolean isRef)
+   в System.Data.XSDSchema.HandleTable(XmlSchemaElement node)
+   в System.Data.XSDSchema.LoadSchema(XmlSchemaSet schemaSet, DataSet ds)
+   в System.Data.DataSet.InferSchema(XmlDocument xdoc, String[] excludedNamespaces, XmlReadMode mode)
+   в System.Data.DataSet.ReadXml(XmlReader reader, Boolean denyResolving)
+   в System.Data.DataSet.ReadXml(Stream stream)
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Code\classes\WebQueryMaker.cs:строка 32
+2020-11-23 18:20:32.0112|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-11-23 18:20:32.1552|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Data.DuplicateNameException: —толбец с именем "link" уже принадлежит этому DataTable: невозможно присвоить им€ вложенной таблицы таблице с тем же именем.
+   в System.Data.DataColumnCollection.RegisterColumnName(String name, DataColumn column)
+   в System.Data.DataRelation.set_Nested(Boolean value)
+   в System.Data.XSDSchema.InstantiateTable(XmlSchemaElement node, XmlSchemaComplexType typeNode, Boolean isRef)
+   в System.Data.XSDSchema.HandleTable(XmlSchemaElement node)
+   в System.Data.XSDSchema.HandleParticle(XmlSchemaParticle pt, DataTable table, ArrayList tableChildren, Boolean isBase)
+   в System.Data.XSDSchema.HandleComplexType(XmlSchemaComplexType ct, DataTable table, ArrayList tableChildren, Boolean isNillable)
+   в System.Data.XSDSchema.InstantiateTable(XmlSchemaElement node, XmlSchemaComplexType typeNode, Boolean isRef)
+   в System.Data.XSDSchema.HandleTable(XmlSchemaElement node)
+   в System.Data.XSDSchema.LoadSchema(XmlSchemaSet schemaSet, DataSet ds)
+   в System.Data.DataSet.InferSchema(XmlDocument xdoc, String[] excludedNamespaces, XmlReadMode mode)
+   в System.Data.DataSet.ReadXml(XmlReader reader, Boolean denyResolving)
+   в System.Data.DataSet.ReadXml(Stream stream)
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Code\classes\WebQueryMaker.cs:строка 32
+2020-11-23 18:20:32.1552|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-11-23 18:20:36.2640|INFO|task2.Controllers.SettingsController|Creating the Settings controller
+2020-11-23 18:20:36.2640|INFO|task2.Controllers.SettingsController|—hanging the Settings controller
+2020-11-23 18:20:45.0383|INFO|task2.Controllers.SettingsController|Creating the Settings controller
+2020-11-23 18:20:45.0822|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-11-23 18:20:45.1602|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-11-23 18:20:45.2592|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-11-23 18:20:45.6531|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Data.DuplicateNameException: —толбец с именем "link" уже принадлежит этому DataTable: невозможно присвоить им€ вложенной таблицы таблице с тем же именем.
+   в System.Data.DataColumnCollection.RegisterColumnName(String name, DataColumn column)
+   в System.Data.DataRelation.set_Nested(Boolean value)
+   в System.Data.XSDSchema.InstantiateTable(XmlSchemaElement node, XmlSchemaComplexType typeNode, Boolean isRef)
+   в System.Data.XSDSchema.HandleTable(XmlSchemaElement node)
+   в System.Data.XSDSchema.HandleParticle(XmlSchemaParticle pt, DataTable table, ArrayList tableChildren, Boolean isBase)
+   в System.Data.XSDSchema.HandleComplexType(XmlSchemaComplexType ct, DataTable table, ArrayList tableChildren, Boolean isNillable)
+   в System.Data.XSDSchema.InstantiateTable(XmlSchemaElement node, XmlSchemaComplexType typeNode, Boolean isRef)
+   в System.Data.XSDSchema.HandleTable(XmlSchemaElement node)
+   в System.Data.XSDSchema.LoadSchema(XmlSchemaSet schemaSet, DataSet ds)
+   в System.Data.DataSet.InferSchema(XmlDocument xdoc, String[] excludedNamespaces, XmlReadMode mode)
+   в System.Data.DataSet.ReadXml(XmlReader reader, Boolean denyResolving)
+   в System.Data.DataSet.ReadXml(Stream stream)
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Code\classes\WebQueryMaker.cs:строка 32
+2020-11-23 18:20:45.6531|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-11-23 18:20:45.7342|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Data.DuplicateNameException: —толбец с именем "link" уже принадлежит этому DataTable: невозможно присвоить им€ вложенной таблицы таблице с тем же именем.
+   в System.Data.DataColumnCollection.RegisterColumnName(String name, DataColumn column)
+   в System.Data.DataRelation.set_Nested(Boolean value)
+   в System.Data.XSDSchema.InstantiateTable(XmlSchemaElement node, XmlSchemaComplexType typeNode, Boolean isRef)
+   в System.Data.XSDSchema.HandleTable(XmlSchemaElement node)
+   в System.Data.XSDSchema.HandleParticle(XmlSchemaParticle pt, DataTable table, ArrayList tableChildren, Boolean isBase)
+   в System.Data.XSDSchema.HandleComplexType(XmlSchemaComplexType ct, DataTable table, ArrayList tableChildren, Boolean isNillable)
+   в System.Data.XSDSchema.InstantiateTable(XmlSchemaElement node, XmlSchemaComplexType typeNode, Boolean isRef)
+   в System.Data.XSDSchema.HandleTable(XmlSchemaElement node)
+   в System.Data.XSDSchema.LoadSchema(XmlSchemaSet schemaSet, DataSet ds)
+   в System.Data.DataSet.InferSchema(XmlDocument xdoc, String[] excludedNamespaces, XmlReadMode mode)
+   в System.Data.DataSet.ReadXml(XmlReader reader, Boolean denyResolving)
+   в System.Data.DataSet.ReadXml(Stream stream)
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Code\classes\WebQueryMaker.cs:строка 32
+2020-11-23 18:20:45.7342|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-11-23 18:20:51.0764|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-11-23 18:20:51.1505|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-11-23 18:20:51.2496|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-11-23 18:20:51.6152|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Data.DuplicateNameException: —толбец с именем "link" уже принадлежит этому DataTable: невозможно присвоить им€ вложенной таблицы таблице с тем же именем.
+   в System.Data.DataColumnCollection.RegisterColumnName(String name, DataColumn column)
+   в System.Data.DataRelation.set_Nested(Boolean value)
+   в System.Data.XSDSchema.InstantiateTable(XmlSchemaElement node, XmlSchemaComplexType typeNode, Boolean isRef)
+   в System.Data.XSDSchema.HandleTable(XmlSchemaElement node)
+   в System.Data.XSDSchema.HandleParticle(XmlSchemaParticle pt, DataTable table, ArrayList tableChildren, Boolean isBase)
+   в System.Data.XSDSchema.HandleComplexType(XmlSchemaComplexType ct, DataTable table, ArrayList tableChildren, Boolean isNillable)
+   в System.Data.XSDSchema.InstantiateTable(XmlSchemaElement node, XmlSchemaComplexType typeNode, Boolean isRef)
+   в System.Data.XSDSchema.HandleTable(XmlSchemaElement node)
+   в System.Data.XSDSchema.LoadSchema(XmlSchemaSet schemaSet, DataSet ds)
+   в System.Data.DataSet.InferSchema(XmlDocument xdoc, String[] excludedNamespaces, XmlReadMode mode)
+   в System.Data.DataSet.ReadXml(XmlReader reader, Boolean denyResolving)
+   в System.Data.DataSet.ReadXml(Stream stream)
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Code\classes\WebQueryMaker.cs:строка 32
+2020-11-23 18:20:51.6242|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-11-23 18:20:51.6983|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Data.DuplicateNameException: —толбец с именем "link" уже принадлежит этому DataTable: невозможно присвоить им€ вложенной таблицы таблице с тем же именем.
+   в System.Data.DataColumnCollection.RegisterColumnName(String name, DataColumn column)
+   в System.Data.DataRelation.set_Nested(Boolean value)
+   в System.Data.XSDSchema.InstantiateTable(XmlSchemaElement node, XmlSchemaComplexType typeNode, Boolean isRef)
+   в System.Data.XSDSchema.HandleTable(XmlSchemaElement node)
+   в System.Data.XSDSchema.HandleParticle(XmlSchemaParticle pt, DataTable table, ArrayList tableChildren, Boolean isBase)
+   в System.Data.XSDSchema.HandleComplexType(XmlSchemaComplexType ct, DataTable table, ArrayList tableChildren, Boolean isNillable)
+   в System.Data.XSDSchema.InstantiateTable(XmlSchemaElement node, XmlSchemaComplexType typeNode, Boolean isRef)
+   в System.Data.XSDSchema.HandleTable(XmlSchemaElement node)
+   в System.Data.XSDSchema.LoadSchema(XmlSchemaSet schemaSet, DataSet ds)
+   в System.Data.DataSet.InferSchema(XmlDocument xdoc, String[] excludedNamespaces, XmlReadMode mode)
+   в System.Data.DataSet.ReadXml(XmlReader reader, Boolean denyResolving)
+   в System.Data.DataSet.ReadXml(Stream stream)
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Code\classes\WebQueryMaker.cs:строка 32
+2020-11-23 18:20:51.7063|DEBUG|task2.Code.Loader|Datasen is null - True
