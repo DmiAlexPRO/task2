@@ -40,7 +40,9 @@
                             <button class="btn btn-danger" type="button">Удалить</button>
                         </div>
                         <div class="col-2 ">
-                            <button class="btn btn-warning" type="button">Редактировать</button>
+                            <button class="btn btn-warning" data-toggle="modal" data-target="#exampleModal2" type="button">
+                                Редактировать
+                            </button>
                         </div>
                     </div>
                     i++;
@@ -70,12 +72,35 @@
                 </button>
             </div>
             <div class="modal-body">
-                <input class="form-control form-control-lg col-12" id = "feed-url"  type="text" placeholder="http://site.domain/...">
+                <input class="form-control form-control-lg col-12" id="feed-url" type="text" placeholder="http://site.domain/...">
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Отмена</button>
                 <button type="button" id="add-feed-btn" data-dismiss="modal" class="btn btn-primary">Добавить</button>
             </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal 2 -->
+<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Редактировать ленту</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <input class="form-control form-control-lg col-12" id="feed-url-editor" type="text">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Отмена</button>
+                <button type="button" id="edit-feed-btn" data-dismiss="modal" class="btn btn-primary">Изменить</button>
+            </div>
+            <input type="hidden" name="feedId" id="feedId">
         </div>
     </div>
 </div>
@@ -88,7 +113,7 @@
         <button class="btn btn-danger" type="button">Удалить</button>
     </div>
     <div class="col-2 ">
-        <button class="btn btn-warning" type="button">Редактировать</button>
+        <button class="btn btn-warning" data-toggle="modal" data-target="#exampleModal2" type="button">Редактировать</button>
     </div>
 </div>
 
@@ -123,7 +148,17 @@
 
 
     function editFeed(e) {
-        alert(this.parentNode.parentNode.id);
+        document.getElementById("feed-url-editor").value = this.parentNode
+            .parentNode.firstChild.nextSibling.innerHTML.replace(/\s/g, '');
+        
+        document.getElementById("feedId").value = this.parentNode
+            .parentNode.id;
+    }
+
+    function aplyFeedChanges(e) {
+        document.getElementById(document.getElementById("feedId").value)
+            .firstChild.nextSibling.textContent = document
+                .getElementById("feed-url-editor").value;
     }
 
     function addFeed(e) {
@@ -148,12 +183,15 @@
 
         var addFeedButton = document.getElementById("add-feed-btn");
         addFeedButton.addEventListener("click", addFeed);
+
+        var editFeedBtn = document.getElementById("edit-feed-btn");
+        editFeedBtn.addEventListener("click", aplyFeedChanges);
     }
 
     window.onload = function () {
         initFeeds();
         initAll();
-        
+
 
     }
 

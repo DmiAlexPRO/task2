@@ -1,0 +1,1546 @@
+2020-11-25 12:04:11.9097|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-11-25 12:04:12.1398|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-11-25 12:04:12.5638|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-11-25 12:04:13.5035|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-11-25 12:04:13.5565|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:13.5885|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:13.6176|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:13.6465|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:13.6786|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:13.7095|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:13.7685|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:13.7995|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:13.8315|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:13.8625|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:13.8936|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:13.9265|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:13.9586|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:14.0225|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:14.0605|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:14.0935|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:14.1345|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:14.1745|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:14.2045|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:14.2525|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:14.2855|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:14.3165|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:14.3495|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:14.3825|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:14.4145|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:14.4465|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:14.4875|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:14.5345|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:14.5715|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:14.6035|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:14.6355|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:14.6665|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:14.6976|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:14.7385|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:14.7885|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:14.8195|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:14.8515|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:14.8835|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:14.9165|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:14.9485|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:14.9955|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:15.0485|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:15.0795|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:15.1105|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:15.1415|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:15.1726|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:15.2085|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:15.2495|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:15.2945|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:15.3275|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:20.1052|INFO|task2.Controllers.SettingsController|Creating the Settings controller
+2020-11-25 12:04:20.1162|INFO|task2.Controllers.SettingsController|Сhanging the Settings controller
+2020-11-25 12:04:25.9100|INFO|task2.Controllers.SettingsController|Creating the Settings controller
+2020-11-25 12:04:25.9540|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-11-25 12:04:25.9730|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-11-25 12:04:26.0510|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-11-25 12:04:30.3724|INFO|task2.Controllers.SettingsController|Creating the Settings controller
+2020-11-25 12:04:30.3854|INFO|task2.Controllers.SettingsController|Сhanging the Settings controller
+2020-11-25 12:04:38.2815|INFO|task2.Controllers.SettingsController|Creating the Settings controller
+2020-11-25 12:04:38.3055|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-11-25 12:04:38.3195|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-11-25 12:04:38.3945|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-11-25 12:04:39.2784|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-11-25 12:04:39.3114|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:39.3414|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:39.3714|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:39.4074|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:39.4404|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:39.4754|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:39.5074|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:39.5394|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:39.5714|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:39.6104|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:39.6424|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:39.6754|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:39.7074|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:39.7384|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:39.7714|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:39.8084|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:39.8414|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:39.8754|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:39.9104|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:39.9434|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:39.9774|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:40.0114|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:40.0444|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:40.0774|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:40.1104|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:40.1414|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:40.1724|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:40.2034|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:40.2344|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:40.2664|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:40.3004|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:40.3354|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:40.3684|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:40.3994|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:40.4294|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:40.4624|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:40.4964|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:40.5334|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:40.5664|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:40.5994|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:40.6324|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:40.6654|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:40.6974|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:40.7324|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:40.7654|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:40.7994|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:40.8324|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:40.8644|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:40.8964|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:04:40.9314|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:19.1102|INFO|task2.Controllers.SettingsController|Creating the Settings controller
+2020-11-25 12:05:19.1202|INFO|task2.Controllers.SettingsController|Сhanging the Settings controller
+2020-11-25 12:05:50.3445|INFO|task2.Controllers.SettingsController|Creating the Settings controller
+2020-11-25 12:05:50.3885|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-11-25 12:05:50.4065|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-11-25 12:05:50.8129|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-11-25 12:05:50.8469|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:50.8799|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:50.9119|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:50.9449|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:50.9769|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:51.0099|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:51.0469|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:51.0809|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:51.1129|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:51.1461|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:51.1781|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:51.2101|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:51.2455|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:51.2776|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:51.3095|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:51.3415|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:51.3745|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:51.4065|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:51.4402|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:51.4782|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:51.5142|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:51.5482|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:51.5802|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:51.6162|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:51.6472|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:51.6792|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:51.7122|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:51.7442|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:51.7752|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:51.8082|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:51.8472|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:51.8832|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:51.9152|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:51.9472|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:51.9802|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:52.0132|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:52.0463|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:52.0822|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:52.1142|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:52.1462|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:52.1792|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:52.2102|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:52.2432|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:52.2772|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:52.3092|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:52.3412|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:52.3742|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:52.4062|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:52.4382|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:52.4712|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 12:05:52.8112|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-11-25 13:16:13.3568|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-11-25 13:16:13.3797|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-11-25 13:16:14.4660|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-11-25 13:16:14.5360|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:14.5800|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:14.6320|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:14.6810|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:14.7320|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:14.7770|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:14.8150|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:14.8500|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:14.8840|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:14.9180|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:14.9530|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:14.9890|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:15.0240|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:15.0590|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:15.0960|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:15.1310|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:15.1760|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:15.2120|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:15.2470|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:15.2820|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:15.3180|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:15.3590|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:15.3960|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:15.4330|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:15.4700|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:15.5070|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:15.5410|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:15.5780|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:15.6170|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:15.6600|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:15.7050|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:15.7430|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:15.7780|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:15.8320|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:15.8880|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:15.9470|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:15.9880|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:16.0220|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:16.0550|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:16.0970|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:16.1320|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:16.1650|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:16.2000|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:16.2340|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:16.2690|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:16.3050|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:16.3420|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:16.3790|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:16.4160|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:16.4530|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:16:16.9810|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-11-25 13:30:43.1891|INFO|task2.Controllers.SettingsController|Creating the Settings controller
+2020-11-25 13:30:43.2041|INFO|task2.Controllers.SettingsController|Сhanging the Settings controller
+2020-11-25 13:30:44.8580|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-11-25 13:30:45.8728|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-11-25 13:30:45.9058|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:45.9388|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:45.9748|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:46.0098|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:46.0448|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:46.0778|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:46.1098|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:46.1468|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:46.1838|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:46.2188|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:46.2518|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:46.2838|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:46.3158|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:46.3488|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:46.3808|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:46.4178|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:46.4488|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:46.4808|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:46.5168|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:46.5528|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:46.5528|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-11-25 13:30:46.5858|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:46.6188|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:46.6518|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:46.6828|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:46.7138|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:46.7468|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:46.7798|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:46.7868|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-11-25 13:30:46.8158|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:46.8428|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:46.8758|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:46.9028|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:46.9338|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:46.9628|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:46.9878|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:47.0148|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:47.0418|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:47.0828|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:47.0988|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:47.1468|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:47.1598|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:47.1938|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:47.2198|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:47.2418|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:47.2648|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:47.2878|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:47.3158|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:47.3398|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:47.3638|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:47.3868|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:47.4098|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:47.4318|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:47.4558|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:47.4808|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:47.5048|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:47.5288|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:47.5558|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:47.5818|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:47.6078|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:47.6328|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:47.6558|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:47.6778|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:47.6998|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:47.7258|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:47.7488|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:47.7708|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:47.7938|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:47.8158|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:47.8378|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:47.8608|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:47.8858|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:47.9108|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:47.9338|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:47.9598|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:47.9958|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:48.0298|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:48.0628|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:48.0958|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:48.1278|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:48.1608|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:48.1938|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:48.2258|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:48.2578|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:48.2898|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:48.3228|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:48.3548|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:48.3888|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:48.4238|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:48.4288|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-11-25 13:30:48.4568|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:48.4908|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:48.5248|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:48.5588|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:48.5958|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:48.6328|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:48.6698|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:48.7028|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:48.7338|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:48.7658|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:48.7988|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:48.8308|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:48.8658|DEBUG|task2.Code.RssReader|Problem in post creation:  System.ArgumentException: Столбец "description" не принадлежит таблице item.
+   в System.Data.DataRow.GetDataColumn(String columnName)
+   в System.Data.DataRow.get_Item(String columnName)
+   в System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   в task2.Code.RssReader.Read(DataSet dataSet) в C:\Users\DarkCat\source\repos\task2\Code\classes\RssReader.cs:строка 35
+2020-11-25 13:30:48.9398|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-11-25 13:31:03.5359|INFO|task2.Controllers.SettingsController|Creating the Settings controller
+2020-11-25 13:31:03.5359|INFO|task2.Controllers.SettingsController|Сhanging the Settings controller
+2020-11-25 13:32:40.4144|INFO|task2.Controllers.SettingsController|Creating the Settings controller
+2020-11-25 13:32:40.4294|INFO|task2.Controllers.SettingsController|Сhanging the Settings controller
+2020-11-25 13:33:10.9703|INFO|task2.Controllers.SettingsController|Creating the Settings controller
+2020-11-25 13:33:10.9823|INFO|task2.Controllers.SettingsController|Сhanging the Settings controller
+2020-11-25 13:33:21.5097|INFO|task2.Controllers.SettingsController|Creating the Settings controller
+2020-11-25 13:33:21.5197|INFO|task2.Controllers.SettingsController|Сhanging the Settings controller
+2020-11-25 13:35:09.9911|INFO|task2.Controllers.SettingsController|Creating the Settings controller
+2020-11-25 13:35:10.0051|INFO|task2.Controllers.SettingsController|Сhanging the Settings controller

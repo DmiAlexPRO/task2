@@ -12,7 +12,6 @@ namespace task2.Controllers
     {
         private Logger logger;
         private SettingsHelper helper;
-        //отдельное хранение лент позволяет 
         private static List<Feed> feeds;
 
         public HomeController()
@@ -24,17 +23,16 @@ namespace task2.Controllers
 
         }
 
-        public ActionResult Index(bool needReload = false)
+        public ActionResult Index(int id = 0)
         {
             Settings settings = helper.GetSettins();
 
-            if(feeds == null)
+            if(feeds == null || id == 1)
             {
                 logger.Info("Setting the feeds");
                 feeds = settings.Feeds;
             }
                
-
             ViewBag.Posts = GetGeneralSortedPostList();
             ViewBag.UseTags = settings.UseTags;
             ViewBag.Feeds = feeds;
@@ -64,7 +62,6 @@ namespace task2.Controllers
                 if (!feed.MustBeShown)
                     continue;
 
-                
                 try
                 {
                     var tempList = Loader.LoadFeedByUrl(feed.Url);
