@@ -1,5 +1,4 @@
 ﻿using NLog;
-using System;
 using System.Collections.Generic;
 using System.Web.Mvc;
 using task2.Code;
@@ -36,7 +35,7 @@ namespace task2.Controllers
         {
             Settings settings = new Settings();
             settings.UseTags = !(Request.Form.GetValues("useTags") == null);
-            settings.RefreshInterval = Parse(Request.Form.GetValues("delay")[0]);
+            settings.RefreshInterval = int.Parse(Request.Form.GetValues("delay")[0]);
 
             var strings = Request.Form.GetValues("feeds")[0].Split(new char[] { ';' });
             List<Feed> feeds = new List<Feed>();
@@ -51,9 +50,6 @@ namespace task2.Controllers
             return Redirect("/Home/Index/1");
         }
 
-        private int Parse(string v)
-        {
-            throw new NotImplementedException();
-        }
+
     }
 }

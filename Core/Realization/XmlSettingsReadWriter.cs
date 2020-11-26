@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NLog;
+using System;
 using System.IO;
 using System.Web.Mvc;
 using System.Xml.Serialization;
@@ -12,8 +13,10 @@ namespace task2.Code.classes
     public class XmlSettingsReadWriter:SettingsReadWriter
     {
         private Controller controller;
+        private Logger logger;
         public XmlSettingsReadWriter(Controller _controller)
         {
+            logger = LogManager.GetCurrentClassLogger();
             controller = _controller ?? throw new ArgumentNullException(nameof(_controller));
         }
 
@@ -47,9 +50,10 @@ namespace task2.Code.classes
                 {
                     settings = (Settings)formatter.Deserialize(fs);
                 }
-                finally
-                {
-                    //  TODO
+                catch(Exception ex)
+                {   
+                    logger.Debug(ex.Message);
+                    throw ex;
                 }
             }
 

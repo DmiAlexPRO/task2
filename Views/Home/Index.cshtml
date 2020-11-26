@@ -1,66 +1,70 @@
-﻿@{  
-    ViewBag.Title = "Home";
+﻿@{
+    ViewBag.Title = "Home Page";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-    
-    <div class="side-menu col-3">
-        <h3>Подключенные ленты</h3>
-        <form method="post" action="~/Home/ConfigureFeed">
-            @foreach (var feed in ViewBag.Feeds)
-            {
-                <script type="text/javascript">
+@model task2.Models.PageInfo.IndexViewModel
+@using task2.Helpers
+<div class="side-menu col-3">
+    <h3>Подключенные ленты</h3>
+    <form method="post" action="~/Home/ConfigureFeed">
+        @foreach (var feed in ViewBag.Feeds)
+        {
+            <script type="text/javascript">
                             var parser = document.createElement('a');
                             parser.href = "@feed.Url";
-                </script>
-                <div class="custom-control custom-checkbox">
-                    @if (feed.MustBeShown)
-                    {
-                        <input type="checkbox" class="form-check-input" checked="checked" name="@feed.Url" id="@feed.Url">
-                    }
-                    else
-                    {
-                        <input type="checkbox" class="form-check-input"  name="@feed.Url" id="@feed.Url">
-                    }
-                    <label class="form-check-label" for="@feed.Url">
-                        <script type="text/javascript">
-                            document.write(parser.hostname)
-                        </script>
-                    </label>
-                </div>
+            </script>
+            <div class="custom-control custom-checkbox">
+                @if (feed.MustBeShown)
+                {
+                    <input type="checkbox" class="form-check-input" checked="checked" name="@feed.Url" id="@feed.Url">
+                }
+                else
+                {
+                    <input type="checkbox" class="form-check-input" name="@feed.Url" id="@feed.Url">
+                }
+                <label class="form-check-label" for="@feed.Url">
+                    <script type="text/javascript">
+                        document.write(parser.hostname)
+                    </script>
+                </label>
+            </div>
 
-            }
-            <br />
-            <button type="submit"  class="btn btn-outline-primary">Применить</button>
-        </form>
-        
-    </div>
+        }
+        <br />
+        <button type="submit" class="btn btn-outline-primary">Применить</button>
+    </form>
 
-    <div class="col-9 content">
-        @foreach (var post in ViewBag.Posts)
-        {   
-            
-            
+</div>
 
-            <h3><a href="@post.Link" class="post-title" target=»_blank»>@post.Title</a></h3>
-            if (post.PublicationDate != DateTime.MinValue)
-            {
-                <div class="col-12 post-date">Дата публикации: @post.PublicationDate.ToString(@*"d"*@)</div>
-            }
-            else
-            {
-                <div class="col-12 post-date">Дата публикации: Ошибка чтения даты</div>
-            }
-            
-    <div class="col-12 post-description" >
-        @if (ViewBag.UseTags)
+<div class="col-9 content">
+    @foreach (var post in ViewBag.Posts)
+    {
+
+
+
+        <h3><a href="@post.Link" class="post-title" target=»_blank»>@post.Title</a></h3>
+        if (post.PublicationDate != DateTime.MinValue)
         {
-            @Html.Raw(post.Description);
+            <div class="col-12 post-date">Дата публикации: @post.PublicationDate.ToString(@*"d"*@)</div>
         }
         else
         {
-            @System.Text.RegularExpressions.Regex.Replace(post.Description, @"<[^>]+>|&nbsp;", "").Trim();//удаляем теги текста
-        }
-    </div>
+            <div class="col-12 post-date">Дата публикации: Ошибка чтения даты</div>
         }
 
+        <div class="col-12 post-description">
+            @if (ViewBag.UseTags)
+            {
+                @Html.Raw(post.Description);
+            }
+            else
+            {
+                @System.Text.RegularExpressions.Regex.Replace(post.Description, @"<[^>]+>|&nbsp;", "").Trim();//удаляем теги текста
+            }
+        </div>
+    }
+
+    <div class="btn-group">
+        @Html.PageLinks(Model.PageInfo, x => Url.Action("Index", new { page = x }))
     </div>
+</div>

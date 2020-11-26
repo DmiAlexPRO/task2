@@ -1,10 +1,12 @@
 ﻿using NLog;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Web.Mvc;
 using task2.Code;
 using task2.Code.classes;
 using task2.Models;
+using static task2.Models.PageInfo;
 
 namespace task2.Controllers
 {
@@ -13,7 +15,7 @@ namespace task2.Controllers
         private Logger logger;
         private SettingsHelper helper;
         private static List<Feed> feeds;
-
+        private static List<Post> posts;
         public HomeController()
         {   
             logger = LogManager.GetCurrentClassLogger();
@@ -23,22 +25,35 @@ namespace task2.Controllers
 
         }
 
-        public ActionResult Index(int id = 0)
+        //public ActionResult Index(int id = 0) - для корректной работы настроек
+        public ActionResult Index(int page = 1)
         {
             Settings settings = helper.GetSettins();
-
-            if(feeds == null || id == 1)
+            if (feeds == null || page == 1)
             {
                 logger.Info("Setting the feeds");
                 feeds = settings.Feeds;
+                page = 1;
             }
-               
-            ViewBag.Posts = GetGeneralSortedPostList();
+
+            if (posts == null || page == 1)
+            {
+                logger.Info("Setting the posts");
+                posts = GetGeneralSortedPostList();
+            }
+
+            int pageSize = 2;
+            
+            IEnumerable<Post> phonesPerPages = posts.Skip((page - 1) * pageSize).Take(pageSize);
+            PageInfo pageInfo = new PageInfo(page, pageSize, posts.Count);
+            IndexViewModel ivm = new IndexViewModel(pageInfo);
+
+            ViewBag.Posts = phonesPerPages;
             ViewBag.UseTags = settings.UseTags;
             ViewBag.Feeds = feeds;
             ViewBag.RefreshDelay = settings.RefreshInterval;
 
-            return View();
+            return View(ivm);
         }
 
          [HttpPost]

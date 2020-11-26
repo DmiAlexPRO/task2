@@ -26,13 +26,14 @@ namespace task2.Code
 
             foreach (var row in dataSet.Tables["item"].AsEnumerable())
             {
-                Post post = new Post();
+                Post post;
                 try
                 {
-                    post.Title = row.Field<string>("title");
-                    post.PublicationDate = DateTime.Parse(row.Field<string>("pubDate"));
-                    post.Description = row.Field<string>("description");
-                    post.Link = row.Field<string>("link");
+                    post = new Post(row.Field<string>("title"),
+                        DateTime.Parse(row.Field<string>("pubDate")),
+                        row.Field<string>("description"),
+                        row.Field<string>("link")
+                    );
                 }
                 catch (Exception ex)
                 {
