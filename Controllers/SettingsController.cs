@@ -20,7 +20,7 @@ namespace task2.Controllers
             helper = SettingsHelper.GetInstance();
             helper.Init(new XmlSettingsReadWriter(this));
         }
-        // GET: Settings
+
         public ActionResult ChangeSettings()
         {
             logger.Info("Сhanging the Settings controller");
@@ -36,8 +36,7 @@ namespace task2.Controllers
         {
             Settings settings = new Settings();
             settings.UseTags = !(Request.Form.GetValues("useTags") == null);
-
-            settings.RefreshInterval = Int32.Parse(Request.Form.GetValues("delay")[0]);
+            settings.RefreshInterval = Parse(Request.Form.GetValues("delay")[0]);
 
             var strings = Request.Form.GetValues("feeds")[0].Split(new char[] { ';' });
             List<Feed> feeds = new List<Feed>();
@@ -48,7 +47,13 @@ namespace task2.Controllers
             }
             settings.Feeds = feeds;
             helper.ChangeSettings(settings);
+
             return Redirect("/Home/Index/1");
+        }
+
+        private int Parse(string v)
+        {
+            throw new NotImplementedException();
         }
     }
 }

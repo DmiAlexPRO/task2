@@ -52,8 +52,6 @@ namespace task2.Controllers
             return Redirect("/Home/Index");
         }
         
-
-
         private List<Post> GetGeneralSortedPostList()
         {
             List<Post> generalPostList = new List<Post>();
@@ -74,8 +72,12 @@ namespace task2.Controllers
                     continue;
                 }
             }
-            generalPostList.Sort();//сортируем по дате публикации (т.к. у нас потенциально последовательно расположены несколько лент)
-            generalPostList.Reverse();//сортировка дает нам даты от давних к новым, что не особо для нас удобно
+
+            //sort by publication date (because we potentially have several feeds arranged sequentially)
+            generalPostList.Sort();
+            //sorting gives us dates from old to new, which is not particularly convenient for us
+            generalPostList.Reverse();
+
             return generalPostList;
         }
     }

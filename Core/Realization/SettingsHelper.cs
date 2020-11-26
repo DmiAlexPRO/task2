@@ -9,7 +9,7 @@ using task2.Models;
 
 namespace task2.Code
 {
-    public class SettingsHelper //этот модуль еще предстоит проверить на адекватность с точки зрения внутренней логики
+    public class SettingsHelper
     {
         private static SettingsHelper instance;
         private SettingsReadWriter readWriter;
@@ -18,10 +18,12 @@ namespace task2.Code
         {
             logger = LogManager.GetCurrentClassLogger();
         }
+
         public void Init(SettingsReadWriter readWriter)
         {
             this.readWriter = readWriter ?? throw new ArgumentNullException(nameof(readWriter)) ;
         }
+
         public static SettingsHelper GetInstance()
         {
             if (instance == null)
@@ -43,8 +45,8 @@ namespace task2.Code
                 logger.Error($"Impossible to read settings: {ex}");
                 settings = SetDefaultSettings();
             }
-            //некорректные данные воспринимаются как повреждение файла или его отсутствие,
-            //файл пересоздается с дефолтными значениями
+            // incorrect data is perceived as file corruption or its absence,
+            // the file is recreated with default values
             if (!IsSettingCorrect(settings))
             {
                 logger.Error($"Read settings is not correct");
@@ -52,7 +54,6 @@ namespace task2.Code
             }
             return settings;
         }
-
         
         private Settings SetDefaultSettings()
         {

@@ -8,10 +8,11 @@ using task2.Models;
 
 namespace task2.Code
 {
-    /*Класс, содержащий функционал для чтения данных из xml и формирования из него постов*/
+    /*A class that contains functionality for reading data from xml and generating posts from it*/
     public class RssReader
     {
-        /*Метод принимает набор данных и читает его, как таблицу, заполняя посты и добавляя их в список, возвращает список постов (ленту)*/
+        /*The method takes a set of data and reads it as a table,
+         * fills in posts and adds them to the list, returns a list of posts (feed)*/
         public static List<Post> Read(DataSet dataSet)
         {
             Logger logger = LogManager.GetCurrentClassLogger();
@@ -26,8 +27,6 @@ namespace task2.Code
             foreach (var row in dataSet.Tables["item"].AsEnumerable())
             {
                 Post post = new Post();
-                // Не уверен, можно ли сказать про этот фрагмент, что в нем используется try-catch для организации логики проги, 
-                //но, даже если это так, другого подобного решения я не вижу
                 try
                 {
                     post.Title = row.Field<string>("title");

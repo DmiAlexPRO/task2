@@ -9,7 +9,5 @@ namespace task2.Models
     {   
         public string Url { get; set; }
         public bool MustBeShown { get; set; }
-
-
     }
 }

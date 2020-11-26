@@ -5,9 +5,9 @@ using System.Net;
 
 
 namespace task2.Code
-{   
-    /*Класс, содержащий функционал для получения данных с сайта*/
-    public class WebQueryMaker//название временное
+{
+    /*The class that contains functionality for getting data from a site*/
+    public class WebQueryMaker
     {
         /* It accepts url in parameters and executes a request at the generated address,
         if the xml table was read by url, it is saved in the dataset and returned by the method.

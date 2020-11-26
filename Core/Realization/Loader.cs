@@ -5,10 +5,11 @@ using task2.Models;
 
 namespace task2.Code
 {
-    /*Класс, содержащий функционал для загрузки данных и формирования их в список постов*/
+    /*class that contains functionality for loading data and forming it into a list of posts*/
     public class Loader
     {
-        /*Медод для загрузки ленты с постами по url и формирования из нее списка, удобного для дальнейшей работы с постами*/
+        /*Medod for loading the feed with posts by url and forming a list from it,
+            convenient for further work with posts*/
         public static List<Post> LoadFeedByUrl(string url)
         {
             Logger logger = LogManager.GetCurrentClassLogger();
@@ -20,7 +21,8 @@ namespace task2.Code
 
             WebQueryMaker webQueryMaker = new WebQueryMaker();
             var dataSet = webQueryMaker.GetRssDataset(url);
-            //тут мы хотим, чтобы прога не вылетала, и возвращаем пустой список, если датасета не существует.
+            /*here we want the program not to crash, and return 
+                an empty list if the dataset does not exist.*/
             logger.Debug($"Datasen is null - {dataSet is null}");
             List<Post> posts = dataSet == null ? new List<Post>(): RssReader.Read(dataSet);
             return posts;

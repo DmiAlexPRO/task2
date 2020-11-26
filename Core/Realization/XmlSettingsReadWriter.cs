@@ -7,7 +7,8 @@ using task2.Models;
 
 namespace task2.Code.classes
 {
-    /*Реализует SettingsReadWriter, сохраняет объект с настройками в файл XML или считывает найстройки из этого файла*/
+    /*Implements SettingsReadWriter, saves an object with settings to an XML file,
+     * or reads add-ins from this file*/
     public class XmlSettingsReadWriter:SettingsReadWriter
     {
         private Controller controller;
@@ -25,8 +26,9 @@ namespace task2.Code.classes
 
             XmlSerializer formatter = new XmlSerializer(typeof(Settings));
 
-            // получаем поток, куда будем записывать сериализованный объект
-            using (FileStream fs = new FileStream(controller.Server.MapPath("~/App_Data//Settings.xml"), FileMode.Create))
+            //we get the stream where we will write the serialized object
+            using (FileStream fs = new FileStream(
+                controller.Server.MapPath("~/App_Data//Settings.xml"), FileMode.Create))
             {
                 formatter.Serialize(fs, settings);
             }
@@ -34,11 +36,12 @@ namespace task2.Code.classes
 
         public Settings Read()
         {
-            // передаем в конструктор тип класса
+            // passing the class type to the constructor
             XmlSerializer formatter = new XmlSerializer(typeof(Settings));
             Settings settings;
-            // десериализация
-            using (FileStream fs = new FileStream(controller.Server.MapPath("~/App_Data//Settings.xml"), FileMode.OpenOrCreate))
+            // deserialization
+            using (FileStream fs = new FileStream(
+                controller.Server.MapPath("~/App_Data//Settings.xml"), FileMode.OpenOrCreate))
             {
                 try
                 {
@@ -46,7 +49,7 @@ namespace task2.Code.classes
                 }
                 finally
                 {
-                    //  
+                    //  TODO
                 }
             }
 
