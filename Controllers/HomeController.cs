@@ -16,6 +16,7 @@ namespace task2.Controllers
         private SettingsHelper helper;
         private static List<Feed> feeds;
         private static List<Post> posts;
+        private static bool needUpdate = true;//necessary for correct operation of the selection of tapes in pagination conditions
         public HomeController()
         {   
             logger = LogManager.GetCurrentClassLogger();
@@ -25,22 +26,23 @@ namespace task2.Controllers
 
         }
 
-        //public ActionResult Index(int id = 0) - для корректной работы настроек
-        public ActionResult Index(int page = 0)
+        public ActionResult Index(int page = 1)
         {
             Settings settings = helper.GetSettins();
-            if (feeds == null || page == 1)
+            if (feeds == null || (page == 1 && needUpdate))
             {
                 logger.Info("Setting the feeds");
                 feeds = settings.Feeds;
                 page = 1;
             }
 
-            if (posts == null || page == 1)
+            if (posts == null || (page == 1 )  )
             {
                 logger.Info("Setting the posts");
                 posts = GetGeneralSortedPostList();
             }
+
+            needUpdate = true;
 
             int pageSize = 2;
             
@@ -64,7 +66,8 @@ namespace task2.Controllers
                 feeds[i].MustBeShown = !(Request.Form.GetValues(feeds[i].Url) == null);
             }
             ViewBag.Feeds = feeds;
-            return Redirect("/Home/Index/");
+            needUpdate = false;
+            return Redirect("/Home/Index/1");
         }
         
         private List<Post> GetGeneralSortedPostList()

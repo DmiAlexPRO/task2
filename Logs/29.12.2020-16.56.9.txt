@@ -1,0 +1,463 @@
+2020-12-29 16:56:09.8428|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:56:10.1198|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:56:10.1298|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:56:10.7955|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:56:31.8587|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера 31.131.18.34:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:56:31.8587|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:56:44.4103|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:56:44.4203|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:56:44.4203|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:56:44.8630|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:57:05.8997|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера 31.131.18.34:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:57:05.9087|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:57:29.4553|INFO|task2.Controllers.SettingsController|Creating the Settings controller
+2020-12-29 16:57:29.4663|INFO|task2.Controllers.SettingsController|Сhanging the Settings controller
+2020-12-29 16:57:31.9889|INFO|task2.Controllers.SettingsController|Creating the Settings controller
+2020-12-29 16:57:32.0269|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:57:32.0389|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:57:32.0499|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:57:32.5117|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:57:40.1582|INFO|task2.Controllers.SettingsController|Creating the Settings controller
+2020-12-29 16:57:40.1852|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:57:40.1852|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:57:40.2032|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:57:40.4642|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:58:08.2290|INFO|task2.Controllers.SettingsController|Creating the Settings controller
+2020-12-29 16:58:08.2669|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:58:08.2669|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:58:08.2849|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:58:08.7079|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:58:12.6029|INFO|task2.Controllers.SettingsController|Creating the Settings controller
+2020-12-29 16:58:12.6129|INFO|task2.Controllers.SettingsController|Сhanging the Settings controller
+2020-12-29 16:58:22.2504|INFO|task2.Controllers.SettingsController|Creating the Settings controller
+2020-12-29 16:58:22.2904|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:58:22.3024|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:58:22.3104|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:58:25.0500|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:58:25.0600|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:58:25.0600|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:58:33.8151|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера 31.131.18.34:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:58:33.8291|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:58:40.2599|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:58:40.2719|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:58:43.5004|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:58:43.5004|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:59:00.6386|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:59:00.6536|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:59:00.6536|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:59:00.8196|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:59:00.8286|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:59:17.1868|INFO|task2.Controllers.SettingsController|Creating the Settings controller
+2020-12-29 16:59:17.1868|INFO|task2.Controllers.SettingsController|Сhanging the Settings controller
+2020-12-29 16:59:20.5143|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Время ожидания операции истекло
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:59:20.5143|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:59:26.6571|INFO|task2.Controllers.SettingsController|Creating the Settings controller
+2020-12-29 16:59:26.6881|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:59:26.6881|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:59:26.7072|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:59:26.8572|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:59:26.8572|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:59:27.3013|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:59:30.1761|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:59:30.1941|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:59:30.2041|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:59:30.2041|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:59:30.3573|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:59:30.3573|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:59:30.5485|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:59:33.2565|INFO|task2.Controllers.SettingsController|Creating the Settings controller
+2020-12-29 16:59:33.2660|INFO|task2.Controllers.SettingsController|Сhanging the Settings controller
+2020-12-29 16:59:36.6162|INFO|task2.Controllers.SettingsController|Creating the Settings controller
+2020-12-29 16:59:36.6452|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:59:36.6542|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:59:36.6542|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:59:36.8094|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:59:36.8184|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:59:36.9913|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:59:47.2492|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:59:47.2492|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:59:47.2702|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:59:47.4202|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:59:47.4202|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:59:47.6027|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:59:50.2984|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:00:00.5801|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:00:10.8940|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:00:13.6606|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:00:13.6706|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 17:00:13.6706|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 17:00:13.8306|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 17:00:13.8306|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 17:00:14.0242|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 17:00:24.2973|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:00:24.2973|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 17:00:24.3193|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 17:00:24.4909|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 17:00:24.4995|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 17:00:24.6647|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 17:00:29.8088|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:00:29.8198|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 17:00:29.8288|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 17:00:29.9809|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 17:00:29.9899|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 17:00:30.1692|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 17:00:34.1214|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:00:34.1324|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 17:00:34.1444|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 17:00:34.2894|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 17:00:34.2984|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 17:00:34.6864|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 17:00:36.0025|INFO|task2.Controllers.SettingsController|Creating the Settings controller
+2020-12-29 17:00:36.0025|INFO|task2.Controllers.SettingsController|Сhanging the Settings controller
+2020-12-29 17:00:36.9460|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:00:36.9550|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 17:00:36.9550|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 17:00:37.1330|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 17:00:37.1411|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 17:00:37.2912|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 17:00:47.5520|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:00:47.5630|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 17:00:47.5630|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 17:00:47.7140|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 17:00:47.7219|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 17:00:48.1664|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 17:00:58.4198|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:00:58.4198|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 17:00:58.4428|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 17:00:58.5938|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 17:00:58.5938|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 17:00:58.9760|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 17:01:09.2526|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:01:09.2526|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 17:01:09.2726|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 17:01:09.4216|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 17:01:09.4216|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 17:01:09.6055|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 17:01:19.9478|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:01:19.9628|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 17:01:19.9798|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 17:01:20.1374|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 17:01:20.1463|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 17:01:20.5991|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 17:01:30.9102|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:01:30.9202|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 17:01:30.9372|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 17:01:31.0963|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 17:01:31.0963|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 17:01:31.3002|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 17:01:41.6274|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:01:41.6424|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 17:01:41.6424|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 17:01:41.8114|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 17:01:41.8114|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 17:01:42.0051|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 17:01:52.3626|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:01:52.3746|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 17:01:52.3746|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 17:01:52.5306|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 17:01:52.5306|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 17:01:52.9441|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 17:02:02.2439|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:02:12.5074|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:02:22.8181|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:02:33.1363|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:02:43.4494|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:02:53.7587|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:03:04.0769|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:03:14.4263|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:03:24.7366|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:03:35.0819|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:03:45.4883|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:03:55.8711|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:04:06.2100|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:04:16.5490|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:04:26.8453|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:04:37.2742|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:04:47.5878|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:04:57.9207|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:05:08.2240|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:05:18.5374|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:05:28.8519|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:05:39.1717|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:05:49.4795|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:05:59.7434|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:06:10.0823|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:06:20.4417|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:06:30.7626|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:06:41.0842|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:06:51.3673|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:07:01.6752|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:07:12.0006|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:07:22.3644|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:07:32.6419|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:07:42.9411|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:07:53.2264|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:08:03.5117|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:08:13.8332|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:08:24.1789|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:08:34.4723|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:08:44.7760|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:08:55.0709|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:09:05.3947|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:09:15.8082|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:09:26.1080|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:09:36.4102|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:09:46.7151|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:09:57.1060|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:10:07.4134|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:10:17.7292|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:10:28.0417|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:10:38.3731|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:10:48.6629|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:10:58.9719|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:11:09.2968|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:11:19.6012|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:11:29.9274|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:11:40.2426|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:11:50.5538|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:12:00.8798|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:12:11.2422|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:12:21.6620|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:12:32.0438|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:12:42.3841|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:12:52.7455|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:13:03.1164|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:13:13.4423|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:13:23.7952|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:13:34.1176|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:13:44.4111|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:13:54.7176|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:14:05.0243|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:14:15.4204|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:14:25.7810|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:14:36.1241|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:14:46.4033|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:14:56.6908|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:15:07.0022|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:15:17.3814|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:15:27.7007|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:15:38.0720|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:15:48.3555|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:15:58.6633|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:16:08.9910|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:16:19.3141|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:16:29.6201|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:16:39.9004|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:16:50.2128|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:17:00.5274|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:17:10.8233|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:17:21.1316|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:17:31.4286|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:17:41.7461|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:17:52.0830|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:18:02.3788|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:18:12.6847|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:18:23.0222|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:18:33.3376|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:18:43.6414|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:18:53.9939|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:19:04.2827|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:19:14.6056|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:19:24.9019|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:19:35.2295|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:19:45.5513|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:19:55.9220|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:20:06.3656|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:20:16.6848|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:20:27.0391|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:20:37.4205|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:20:47.7087|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:20:58.0243|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:21:08.3743|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:21:18.7976|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:21:29.0855|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:21:39.4731|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:21:49.7981|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:22:00.1255|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:22:10.5051|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:22:20.8179|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:22:31.1169|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:22:41.4372|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:22:51.8004|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:23:02.1115|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:23:12.4190|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:23:22.7466|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:23:33.0674|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:23:43.3880|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:23:53.6933|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:24:03.9931|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:24:14.2888|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:24:24.6063|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:24:34.9390|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:24:45.2605|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:24:55.5579|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:25:05.8971|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:25:16.2090|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:25:26.5471|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:25:36.8314|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:25:47.1199|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:25:57.4220|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:26:07.7517|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:26:17.2411|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:26:17.2661|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:26:17.2661|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 17:26:17.2881|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 17:26:17.4907|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 17:26:17.4999|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 17:26:18.0992|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 17:26:20.1835|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:26:20.2144|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:26:20.2264|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 17:26:20.2364|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 17:26:20.3869|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 17:26:20.3949|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 17:26:20.5654|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 17:26:27.4660|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:26:27.5080|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:26:27.5230|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 17:26:27.5330|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 17:26:27.6890|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 17:26:27.7010|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 17:26:27.8741|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 17:26:38.1456|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:26:38.1636|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 17:26:38.1766|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 17:26:38.3316|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 17:26:38.3316|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 17:26:38.5070|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 17:26:48.8540|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:26:48.8700|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 17:26:48.8820|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 17:26:49.0420|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 17:26:49.0510|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 17:26:49.4425|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 17:26:59.7123|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:26:59.7253|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 17:26:59.7363|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 17:26:59.8892|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 17:26:59.8892|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 17:27:00.0392|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 17:27:10.3819|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:27:10.3980|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 17:27:10.4080|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 17:27:10.5595|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 17:27:10.5685|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 17:27:10.7940|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 17:27:21.1071|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:27:21.1331|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 17:27:21.1501|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 17:27:21.3031|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 17:27:21.3121|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 17:27:21.8631|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 17:27:32.1423|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:27:32.1593|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 17:27:32.1714|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 17:27:32.3241|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 17:27:32.3321|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 17:27:32.4967|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 17:27:35.0830|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:27:35.0960|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 17:27:35.0960|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 17:27:35.2640|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 17:27:35.2640|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 17:27:35.4401|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 17:27:45.6829|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:27:45.6989|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 17:27:45.7079|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 17:27:45.8509|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 17:27:45.8589|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 17:27:46.0293|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 17:27:50.7859|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:27:52.2636|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:27:52.2786|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 17:27:52.2786|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 17:27:52.4331|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 17:27:52.4461|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 17:27:52.6040|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 17:28:02.8398|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 17:28:02.8558|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 17:28:02.8658|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 17:28:03.0202|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 17:28:03.0302|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 17:28:03.5631|DEBUG|task2.Code.Loader|Datasen is null - False

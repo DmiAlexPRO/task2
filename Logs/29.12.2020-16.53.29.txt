@@ -1,0 +1,97 @@
+2020-12-29 16:53:29.8513|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:53:30.0863|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:53:30.0953|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:53:30.6646|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:53:30.8793|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:53:30.8893|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:53:44.5072|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:53:44.5192|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:53:44.5192|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:53:44.7007|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:53:44.8567|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:53:44.8567|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:53:50.6365|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:53:50.6785|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:53:50.6945|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:53:50.7045|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:53:50.8855|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:53:51.0346|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:53:51.0346|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:54:01.3196|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:54:01.3316|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:54:01.3316|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:54:01.5643|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:54:01.7246|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:54:01.7346|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:54:12.0204|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:54:12.0304|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:54:12.0304|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:54:12.4200|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:54:12.5730|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:54:12.5820|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:54:22.8782|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:54:22.8942|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:54:22.9072|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:54:23.1032|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:54:23.2595|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:54:23.2684|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:54:33.5388|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:54:33.5488|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:54:33.5598|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:54:33.7248|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:54:33.8693|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:54:33.8783|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:54:44.2263|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:54:44.2383|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:54:44.2473|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:54:44.8593|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:55:05.2278|INFO|task2.Controllers.SettingsController|Creating the Settings controller
+2020-12-29 16:55:05.2378|INFO|task2.Controllers.SettingsController|Сhanging the Settings controller
+2020-12-29 16:55:08.0326|INFO|task2.Controllers.SettingsController|Creating the Settings controller
+2020-12-29 16:55:08.0686|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:55:08.0816|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:55:08.0816|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:55:08.2626|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:55:12.1712|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:55:12.1712|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:55:12.1912|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:55:12.3658|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:55:25.5077|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:55:25.5217|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:55:25.5357|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:55:25.9690|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:55:26.9087|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера 31.131.18.34:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:55:26.9087|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:55:50.3098|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера 31.131.18.34:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:55:50.3098|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:55:54.4033|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Невозможно соединиться с удаленным сервером ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера 31.131.18.34:443
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:55:54.4133|DEBUG|task2.Code.Loader|Datasen is null - True
