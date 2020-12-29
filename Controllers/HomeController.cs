@@ -26,7 +26,7 @@ namespace task2.Controllers
         }
 
         //public ActionResult Index(int id = 0) - для корректной работы настроек
-        public ActionResult Index(int page = 1)
+        public ActionResult Index(int page = 0)
         {
             Settings settings = helper.GetSettins();
             if (feeds == null || page == 1)
@@ -64,7 +64,7 @@ namespace task2.Controllers
                 feeds[i].MustBeShown = !(Request.Form.GetValues(feeds[i].Url) == null);
             }
             ViewBag.Feeds = feeds;
-            return Redirect("/Home/Index");
+            return Redirect("/Home/Index/");
         }
         
         private List<Post> GetGeneralSortedPostList()

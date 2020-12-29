@@ -766,3 +766,6 @@
    â System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
    â task2.Code.RssReader.Read(DataSet dataSet) â C:\Users\DarkCat\source\repos\task2\Core\Realization\RssReader.cs:ñòðîêà 32
 2020-11-26 21:01:44.1460|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-11-26 21:05:01.1061|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-11-26 21:05:17.4417|INFO|task2.Controllers.SettingsController|Creating the Settings controller
+2020-11-26 21:05:17.4417|INFO|task2.Controllers.SettingsController|Ñhanging the Settings controller

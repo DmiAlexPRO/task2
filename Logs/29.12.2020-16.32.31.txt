@@ -1,0 +1,329 @@
+2020-12-29 16:32:32.0534|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:32:32.2954|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:32:32.2954|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:32:32.8752|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:32:33.1034|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:32:33.1114|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:32:38.2779|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:32:38.3059|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:32:40.3055|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:32:40.3255|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:32:43.0967|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:32:44.4728|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:32:44.4837|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:32:44.4837|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:32:44.6769|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:32:44.8247|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:32:44.8327|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:32:47.0983|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:32:48.4974|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:32:48.4974|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:32:48.5145|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:32:48.6920|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:32:48.8378|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:32:48.8461|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:32:50.5215|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:32:52.2675|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:32:53.7588|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:32:53.7688|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:32:53.7688|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:32:53.9515|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:32:54.0973|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:32:54.0973|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:32:55.1307|INFO|task2.Controllers.SettingsController|Creating the Settings controller
+2020-12-29 16:32:55.1417|INFO|task2.Controllers.SettingsController|Сhanging the Settings controller
+2020-12-29 16:33:01.6445|INFO|task2.Controllers.SettingsController|Creating the Settings controller
+2020-12-29 16:33:01.6765|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:33:03.5193|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:33:03.5353|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:33:13.7441|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:33:15.1174|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:33:25.3559|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:33:26.8864|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:33:26.9004|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:33:26.9154|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:33:27.3385|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:33:27.4887|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:33:27.4978|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:33:37.7154|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:33:37.7284|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:33:37.7394|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:33:37.9154|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:33:38.0624|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:33:38.0624|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:33:48.3271|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:33:48.3431|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:33:48.3431|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:33:48.5297|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:33:48.6832|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:33:48.6922|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:33:58.9421|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:33:58.9521|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:33:58.9521|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:33:59.3721|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:33:59.5190|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:33:59.5310|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:34:09.8173|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:34:09.8283|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:34:09.8283|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:34:10.0033|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:34:10.1503|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:34:10.1593|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:34:20.4604|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:34:20.4724|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:34:20.4844|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:34:20.6524|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:34:20.8314|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:34:20.8414|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:34:31.7205|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:34:31.7335|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:34:31.7335|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:34:32.1214|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:34:33.2733|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:34:33.2823|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:34:43.5472|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:34:43.5602|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:34:43.5602|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:34:43.7452|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:34:43.9052|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:34:43.9052|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:34:54.1839|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:34:54.1979|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:34:54.2109|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:34:54.3751|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:34:54.5201|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:34:54.5291|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:35:04.7807|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:35:04.7807|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:35:04.8007|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:35:05.4251|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:35:05.5790|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:35:05.5790|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:35:15.8827|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:35:15.8937|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:35:15.9067|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:35:16.0828|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:35:16.2298|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:35:16.2388|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:35:26.5867|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:35:26.5957|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:35:26.5957|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:35:26.7807|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:35:26.9273|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:35:26.9373|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:35:37.2097|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:35:37.2217|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:35:37.2317|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:35:37.6663|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:35:37.8160|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:35:37.8160|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:35:48.1184|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:35:48.1324|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:35:48.1414|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:35:48.3085|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:35:48.4615|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:35:48.4715|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:35:58.7596|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:35:58.7746|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:35:58.7886|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:35:58.9666|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:35:59.1212|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:35:59.1302|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:36:09.4135|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:36:09.4265|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:36:09.4375|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:36:10.0126|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:36:10.1609|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:36:10.1699|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:36:20.4107|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:36:20.4227|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:36:20.4227|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:36:20.6417|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:36:20.8010|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:36:20.8010|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:36:31.1735|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:36:31.1735|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:36:31.1935|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:36:31.4027|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:36:31.5607|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:36:31.5607|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:36:41.8603|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:36:41.8603|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:36:41.8840|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:36:43.5931|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:36:43.7442|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:36:43.7532|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:36:54.0483|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:36:54.0483|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:36:54.0693|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:36:54.2493|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:36:54.4046|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:36:54.4046|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:37:04.7911|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:37:04.8061|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:37:04.8181|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:37:05.0121|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:37:05.1581|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:37:05.1581|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:37:15.4801|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:37:15.4921|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:37:15.5011|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:37:16.5734|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:37:16.7254|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:37:16.7343|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:37:27.0333|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:37:27.0463|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:37:27.0463|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:37:27.2340|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:37:27.3959|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:37:27.4069|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:37:37.9668|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:37:37.9818|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:37:37.9818|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:37:38.1708|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:37:38.3348|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:37:38.3468|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:37:48.7565|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:37:48.7675|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:37:48.7675|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:37:49.1456|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:37:49.3056|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:37:49.3146|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:37:59.7150|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:37:59.7260|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:37:59.7360|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:37:59.8970|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:38:00.0423|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:38:00.0523|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:38:10.3957|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:38:10.4097|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:38:10.4257|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:38:10.5997|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:38:10.7497|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:38:10.7497|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:38:21.0766|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:38:21.0766|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:38:21.0976|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:38:21.5338|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:38:21.6909|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:38:21.7009|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:38:32.0708|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:38:32.0808|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:38:32.0918|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:38:32.3259|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:38:32.4715|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:38:32.4715|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:38:42.8084|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:38:42.8194|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:38:42.8334|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:38:43.0135|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:38:43.1605|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:38:43.1695|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:38:53.4616|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:38:53.4736|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:38:53.4836|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:38:53.9954|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:38:54.1604|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:38:54.1764|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:39:04.5279|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:39:04.5379|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:39:04.5489|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:39:04.7217|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:39:04.8737|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:39:04.8897|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:39:15.2066|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:39:15.2186|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:39:15.2316|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:39:15.4467|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:39:15.5928|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:39:15.5928|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:39:25.8877|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:39:25.8987|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:39:25.9087|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:39:26.4539|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:39:26.5937|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:39:26.5937|DEBUG|task2.Code.Loader|Datasen is null - True
+2020-12-29 16:39:36.8986|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-12-29 16:39:36.9126|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-12-29 16:39:36.9266|INFO|task2.Controllers.HomeController|Setting the posts
+2020-12-29 16:39:37.0996|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-12-29 16:39:37.2596|DEBUG|task2.Code.WebQueryMaker|Problem getting a stream response:  System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.HttpWebRequest.GetResponse()
+   в task2.Code.WebQueryMaker.GetRssDataset(String url) в C:\Users\DarkCat\source\repos\task2\Core\Realization\WebQueryMaker.cs:строка 31
+2020-12-29 16:39:37.2696|DEBUG|task2.Code.Loader|Datasen is null - True
