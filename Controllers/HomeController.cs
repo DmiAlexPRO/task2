@@ -1,67 +1,45 @@
-﻿using System;
+﻿using NLog;
+using System;
 using System.Collections.Generic;
 using System.Web.Mvc;
 using task2.Code;
+using task2.Code.classes;
 using task2.Models;
 
 namespace task2.Controllers
 {
     public class HomeController : Controller
     {
+        private Logger logger;
         private SettingsHelper helper;
         private static List<Feed> feeds;
-        private List<Post> posts;
-        private bool useTags;
-        private static int refreshPageInterval = 180; //в секундах
 
         public HomeController()
-        {
+        {   
+            logger = LogManager.GetCurrentClassLogger();
+            logger.Info("Creating the Home controller");
             helper = SettingsHelper.GetInstance();
-            helper.Init(this);
+            helper.Init(new XmlSettingsReadWriter(this));
 
         }
 
-        public ActionResult Index()
+        public ActionResult Index(int id = 0)
         {
-            Settings settings = helper.GetSettinsFromXML();
-            useTags = settings.UseTags;
-            if(feeds == null )
-                InitFeeds(settings);
-            InitPosts();
-            // получаем rss-ленту и отправляем ее в динамическое свойство Posts в ViewBag
-            FillViewBag();
+            Settings settings = helper.GetSettins();
 
-            
-            return View();
-        }
-
-        public ActionResult ChangeSettings()
-        {
-            Settings settings = helper.GetSettinsFromXML();
-            ViewBag.UseTags = settings.UseTags;
-            ViewBag.Range = settings.RefreshInterval;
-            ViewBag.Feeds = settings.Feeds;
-            return View();
-        }
-        [HttpPost]
-        public RedirectResult GetSettings()
-        {
-            Settings settings = new Settings();
-            settings.UseTags = !(Request.Form.GetValues("useTags") == null);
-
-            settings.RefreshInterval = Int32.Parse(Request.Form.GetValues("delay")[0]);
-            var strings = Request.Form.GetValues("feeds")[0].Split(new char[] { ';' });
-            List<Feed> feeds = new List<Feed>();
-            foreach (var str in strings)
+            if(feeds == null || id == 1)
             {
-                if(str != "")
-                    feeds.Add(new Feed() { Url = str, MustBeShown = true });
+                logger.Info("Setting the feeds");
+                feeds = settings.Feeds;
             }
-            settings.Feeds = feeds;
-            helper.ChangeSettings(settings);
-            return Redirect("/Home/Index");
-        }
+               
+            ViewBag.Posts = GetGeneralSortedPostList();
+            ViewBag.UseTags = settings.UseTags;
+            ViewBag.Feeds = feeds;
+            ViewBag.RefreshDelay = settings.RefreshInterval;
 
+            return View();
+        }
 
          [HttpPost]
         public RedirectResult ConfigureFeed()
@@ -74,42 +52,33 @@ namespace task2.Controllers
             return Redirect("/Home/Index");
         }
         
-       private void InitFeeds(Settings settings)
-       {
-            feeds = settings.Feeds;
-        }
-
-        private void InitPosts()
+        private List<Post> GetGeneralSortedPostList()
         {
-            posts = new List<Post>();
-
+            List<Post> generalPostList = new List<Post>();
             foreach (var feed in feeds)
             {
-                if (feed.MustBeShown)
-                {
-                    try
-                    {
-                        var tempList = RssReader.Read(feed.Url);
-                        if(tempList != null)
-                            posts.AddRange(tempList);
-                    }
-                    catch(Exception ex)
-                    {
-                        //
-                    }
-                }
-                    
-            }
-            posts.Sort();//сортируем по дате публикации (т.к. у нас потенциально последовательно расположены несколько лент)
-            posts.Reverse();//сортировка дает нам даты от давних к новым, что не особо для нас удобно
-        }
+                if (!feed.MustBeShown)
+                    continue;
 
-        private void FillViewBag()
-        {
-            ViewBag.Posts = posts;
-            ViewBag.UseTags = useTags;
-            ViewBag.Feeds = feeds;
-            ViewBag.RefreshDelay = refreshPageInterval;
+                try
+                {
+                    var tempList = Loader.LoadFeedByUrl(feed.Url);
+                    if (tempList != null)
+                        generalPostList.AddRange(tempList);
+                }
+                catch (Exception ex)
+                {
+                    logger.Debug($"Loading post problem: {ex}");
+                    continue;
+                }
+            }
+
+            //sort by publication date (because we potentially have several feeds arranged sequentially)
+            generalPostList.Sort();
+            //sorting gives us dates from old to new, which is not particularly convenient for us
+            generalPostList.Reverse();
+
+            return generalPostList;
         }
     }
 }

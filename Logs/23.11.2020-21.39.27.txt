@@ -1,0 +1,17 @@
+2020-11-23 21:39:27.8498|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-11-23 21:39:28.4728|INFO|task2.Controllers.HomeController|Setting the feeds
+2020-11-23 21:39:29.0435|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-11-23 21:39:29.2865|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-11-23 21:40:11.1983|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-11-23 21:40:11.2542|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-11-23 21:40:11.3802|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-11-23 21:40:15.0776|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-11-23 21:40:15.1236|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-11-23 21:40:15.2016|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-11-23 21:40:15.3436|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-11-23 21:40:16.9770|INFO|task2.Controllers.SettingsController|Creating the Settings controller
+2020-11-23 21:40:16.9900|INFO|task2.Controllers.SettingsController|Ñhanging the Settings controller
+2020-11-23 21:40:57.6539|INFO|task2.Controllers.SettingsController|Creating the Settings controller
+2020-11-23 21:40:57.7179|INFO|task2.Controllers.HomeController|Creating the Home controller
+2020-11-23 21:40:58.0559|DEBUG|task2.Code.Loader|Datasen is null - False
+2020-11-23 21:40:58.2009|DEBUG|task2.Code.Loader|Datasen is null - False

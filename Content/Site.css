@@ -44,3 +44,11 @@ img{
 .post-description{
     margin-bottom:45px;
 }
+
+.card{
+    padding: 25px;
+}
+
+.form-check{
+    padding-left:35px;
+}

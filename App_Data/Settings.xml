@@ -2,14 +2,14 @@
 <Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Feeds>
     <Feed>
-      <Url>https://habr.com/rss/interesting/</Url>
+      <Url>http://ph.news.yahoo.com/rss/philippines</Url>
       <MustBeShown>true</MustBeShown>
     </Feed>
     <Feed>
-      <Url>http://ph.news.yahoo.com/rss/philippines</Url>
+      <Url>https://habr.com/rss/interesting/</Url>
       <MustBeShown>true</MustBeShown>
     </Feed>
   </Feeds>
   <UseTags>true</UseTags>
-  <RefreshInterval>3210</RefreshInterval>
+  <RefreshInterval>4220</RefreshInterval>
 </Settings>
